@@ -12,6 +12,16 @@
     </director>
     
     <director>
+        <name>Samira Akbary</name>
+        <age>18</age>
+        <location>USA</location>
+        <pronouns>she/her</pronouns>
+        <position>Co-Director of Development and Management</position>
+        <bio>Samira is a rising high school senior. At school, she has been a passionate member of Young Dems and held leadership positions in Key Club. Outside of school, she was the founder of Letters 4 Docs, which wrote over 400 COVID-19 relief letters to medical personnel. She is also the Director of Civil Rights Advocacy at the Greater Good Initiative which elevates youth voices in public policy.</bio>
+        <imgurl>samira.jpg</imgurl>
+    </director>
+    
+    <director>
         <name>Nina Kisanga</name>
         <age>18</age>
         <location>USA</location>
@@ -20,4 +30,5 @@
         <bio>Nina is a digital artist from Ohio, and is heading to Tulane University to study Public Health and Political Science/Pre-Law in the fall. In high school, she was involved in political activism, music, and community outreach efforts, and plans to continue these in college. She is very passionate about criminal justice reform, and hopes to work as a public health or civil rights lawyer in the future.</bio>
         <imgurl>nina.jpg</imgurl>
     </director>
+    
 </directors>
