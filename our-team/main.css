@@ -131,7 +131,7 @@ h2 {
 }
 
 #dirlist table {
-    width: 70%;
+    width: 75%;
     margin: auto;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -142,6 +142,18 @@ h2 {
 table img {
     width: 200px;
     height: auto;
+}
+
+table h2 {
+	line-height: 75%;
+}
+
+.nametxt {
+	color: #FF9966;
+}
+
+.postext {
+	color: #FF9999;
 }
 
 .imgtd {
