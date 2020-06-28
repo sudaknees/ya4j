@@ -125,20 +125,23 @@ h2 {
 }
 
 #dirlist table {
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 table img {
-    width: 350px;
+    width: 230px;
     height: auto;
 }
 
 .imgtd {
-	width: 300px;
-	margin: 10px;
+	width: 225px;
+}
+
+td {
+	padding: 0px 10px;
 }
 
 
