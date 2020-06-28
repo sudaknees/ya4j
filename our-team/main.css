@@ -124,15 +124,22 @@ h2 {
     color: white;
 }
 
+#dirlist {
+	width: 75%;
+	background: #FFCC00;
+}
+
 #dirlist table {
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+	border-bottom: .75px white;
+	background: rgba(0,0,0,0)
 }
 
 table img {
-    width: 230px;
+    width: 200px;
     height: auto;
 }
 
