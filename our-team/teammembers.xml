@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<directors>
+    <director>
+        <name>Megan Cooper</name>
+        <age>18</age>
+        <location>USA</location>
+        <pronouns>she/her</pronouns>
+        <position>Co-Director of Development and Management</position>
+        <bio>Megan Cooper is heading to Syracuse University in the fall to pursue a double major in Political Science and News/Online Journalism. She is passionate about the possibilities for our future and hopes to work with other young people to create systems that help all people and are not based on oppression of minority groups.</bio>
+        <imgurl>megan.jpg</imgurl>
+    </director>
+    
+    <director>
+        <name>Nina Kisanga</name>
+        <age>18</age>
+        <location>USA</location>
+        <pronouns>she/her</pronouns>
+        <position>Director of Activism Art</position>
+        <bio>Nina is a digital artist from Ohio, and is heading to Tulane University to study Public Health and Political Science/Pre-Law in the fall. In high school, she was involved in political activism, music, and community outreach efforts, and plans to continue these in college. She is very passionate about criminal justice reform, and hopes to work as a public health or civil rights lawyer in the future.</bio>
+        <imgurl>nina.jpg</imgurl>
+    </director>
+</directors>
