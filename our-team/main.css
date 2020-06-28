@@ -127,14 +127,20 @@ h2 {
 #dirlist table {
     width: 70%;
     margin: auto;
-    padding: 3px;
+    padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 table img {
-    width: 300px;
+    width: 350px;
     height: auto;
 }
+
+.imgtd {
+	width: 300px;
+	margin: 10px;
+}
+
 
 /* scrollbar */
 
