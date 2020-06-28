@@ -124,6 +124,17 @@ h2 {
     color: white;
 }
 
+#dirtable {
+    width: 70%;
+    margin: auto;
+    padding: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#dirtable img {
+    width: 300px;
+    height: auto;
+}
 
 /* scrollbar */
 
