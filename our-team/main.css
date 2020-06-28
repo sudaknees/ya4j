@@ -127,6 +127,7 @@ h2 {
 #dirlist {
 	width: 75%;
 	background: #FFCC00;
+	margin: auto;
 }
 
 #dirlist table {
