@@ -1,11 +1,6 @@
 ---
 deployment:
   tasks:
-      - export DEPLOYPATH=/home/kidengaa/public_html/
-      - /bin/cp -R contact $DEPLOYPATH
-	  - /bin/cp -R get-involved $DEPLOYPATH
-	  - /bin/cp -R our-team $DEPLOYPATH
-      - /bin/cp -R mission $DEPLOYPATH
-	  - /bin/cp -R organizations $DEPLOYPATH
-      - /bin/cp index.html $DEPLOYPATH
-      - /bin/cp main.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/kidengaa/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp main.css $DEPLOYPATH
