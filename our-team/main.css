@@ -70,12 +70,12 @@ div img {
 
 .nametxt {
 	color: #FF9966;
-	line-height: 60%;
+	font-weight: 700;
 }
 
 .postext {
 	color: #FF9999;
-	line-height: 50%;
+	font-weight: 400;
 }
 
 .imgtd {
@@ -87,7 +87,7 @@ div img {
 }
 
 .personalbio {
-	width: calc(70%-275px);
+	width: calc(70%-300px);
 	display: inline-flex;
 }
 
