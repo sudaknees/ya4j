@@ -56,7 +56,7 @@ h2 {
 #dirlist {
 	margin: auto;
 	width: 75%;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 div img {
@@ -89,6 +89,14 @@ div img {
 	display: inline-block;
 }
 
+.personal {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
 @media (max-width: 991.98px) {
 	.maxwnav {
 		width: 100%;
@@ -96,22 +104,21 @@ div img {
 	
 	#dirlist {
 		padding-top: 50px;
-		width: 94%;
+		width: 100%;
 		margin: auto;
 		text-align: center;
 	}
 	
 	.personalbio {
 		text-align: center !important;
-		width: auto !important;
+		width: 94% !important;
 		margin: auto;
 		float: none !important;
 	}
 	
 	.imgtd {
 		text-align: center;
-		margin-right: 0;
-		margin: 0 !important;
+		margin: auto !important;
 		text-align: center;
 		float: none !important;
 	}
