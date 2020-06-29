@@ -16,3 +16,16 @@ function parseXml(xml)
 	});
 }
 
+$(document).ready(function()
+{
+	var $grid = $('#container').isotope({
+		itemSelector: '.listing',
+		percentPosition: true,
+		masonry: {
+			columnWidth: '.grid-sizer',
+			gutter: 20}
+		});
+	$grid.imagesLoaded().progress( function() {
+		$grid.isotope('layout');
+	});
+});

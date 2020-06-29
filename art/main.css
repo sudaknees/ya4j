@@ -15,23 +15,18 @@ html, body {
     overflow-x: hidden;
 }
 
-/* navigation */
-
-#mainblock a {
-    color: green;
+a:visited {
+    color: darkgreen;
 }
 
-#mainblock a:visited {
-    color: green;
-}
-
-#mainblock a:hover {
+a:hover {
     letter-spacing: normal;
 }
 
 /*general style */
 
 a {
+	color: green;
     text-decoration: none;
     transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
