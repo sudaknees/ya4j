@@ -97,7 +97,6 @@ div img {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	background-color: white;
-	border-bottom: 1px solid gray;
 }
 
 @media (max-width: 991.98px) {
@@ -107,14 +106,13 @@ div img {
 	
 	#dirlist {
 		padding-top: 50px;
-		width: 100%;
+		width: 80% !important;
 		margin: auto;
 		text-align: center;
 	}
 	
 	.personalbio {
 		text-align: center !important;
-		width: 80% !important;
 		margin: auto;
 		float: none !important;
 	}
