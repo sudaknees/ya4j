@@ -136,12 +136,12 @@ h2 {
 	background: rgba(0,0,0,0)
 }
 
-table img {
-    width: 200px;
+div img {
+    width: 225px;
     height: auto;
 }
 
-table h2 {
+.personalbio h2 {
 	line-height: 75%;
 }
 
@@ -154,25 +154,34 @@ table h2 {
 }
 
 .imgtd {
-	width: 225px;
+	width: 250px;
+	text-align: center;
 }
 
-td {
-	padding: 0px 10px;
+.personalbio {
+	width: calc(70%-250px)
 }
 
 @media (max-width: 991.98px) {
 	.maxwnav {
 		width: 100%;
 	}
+} 
+
+@media (max-width: 991.98px) {
+	.personalbio {
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
 }
 
-.table-responsive{
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}    
+@media (max-width: 991.98px) {
+	.imgtd {
+		text-align: center;
+		margin: auto;
+	}
+}
 
 /* scrollbar */
 
