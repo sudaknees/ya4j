@@ -17,21 +17,6 @@ html, body {
 
 /* navigation */
 
-#oldnav {
-	background-color: rgba(0,0,0,0) !important;
-    background-image: linear-gradient(to left, #FF9966, #FF9999) !important;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    border-bottom: .5px solid white;
-    z-index: 100;
-    justify-content: center;
-    align-items: center;
-}
-
 #navbarcontent {
     width: 80%;
     display: inline-flex;
