@@ -15,75 +15,6 @@ html, body {
     overflow-x: hidden;
 }
 
-/* navigation */
-
-#oldnav {
-    background-image: linear-gradient(to left, #FF9966, #FF9999);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    border-bottom: .5px solid white;
-    z-index: 100;
-    justify-content: center;
-    align-items: center;
-}
-
-#navbarcontent {
-    width: 80%;
-    display: inline-flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-}
-
-#rightlinks {
-    color: white;
-    font-size: 12pt;
-    font-weight: 300;
-}
-
-#rightlinks a {
-    color: white;
-}
-
-#rightlinks a:visited {
-    color: white;
-}
-
-#rightlinks a:hover {
-    letter-spacing: normal;
-}
-
-#titlelink {
-    color: white;
-}
-
-#aboutdrop {
-    display: none;
-    background-color: rgba(255,255,255,.75);
-    position: absolute;
-    width: 100px;
-    z-index: 101;
-    padding: 5px 5px;
-}
-
-#aboutlink:hover #aboutdrop {
-    display: block;
-    transition: all .5s linear;
-    -o-transition: all .5s linear;
-    -moz-transition: all .5s linear;
-    -webkit-transition: all .5s linear;
-}
-
-.droplink {
-    font-size: 12pt;
-    font-weight: 300;
-    color: #CC99FF !important;
-}
-
 /*general style */
 
 a {
@@ -123,8 +54,8 @@ h2 {
 }
 
 #dirlist {
-	width: 75%;
 	margin: auto;
+	width: 100%;
 }
 
 div img {
@@ -145,9 +76,10 @@ div img {
 }
 
 .imgtd {
-	width: 250px;
+	width: 225px;
 	text-align: center;
 	display: inline-block;
+	margin-right: 20px;
 }
 
 .personalbio {
@@ -163,7 +95,7 @@ div img {
 
 @media (max-width: 991.98px) {
 	.personalbio {
-		text-align: center;
+		text-align: center !important;
 		width: 90% !important;
 		margin: auto;
 	}
@@ -171,6 +103,13 @@ div img {
 
 @media (max-width: 991.98px) {
 	.imgtd {
+		text-align: center;
+		margin: auto !important;
+	}
+}
+
+@media (max-width: 991.98px) {
+	div img {
 		text-align: center;
 		margin: auto;
 	}
