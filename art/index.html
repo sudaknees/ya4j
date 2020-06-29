@@ -65,18 +65,5 @@
 		
 		<script src="artlister.js"></script>
 		
-		<script>
-			var $grid = $('#container').isotope({
-				itemSelector: '.listing',
-				percentPosition: true,
-				masonry: {
-					columnWidth: '.grid-sizer',
-					gutter: 20}
-			});
-			$grid.imagesLoaded().progress( function() {
-				$grid.isotope('layout');
-			});
-		</script>
-		
     </body>
 </html>
