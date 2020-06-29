@@ -87,6 +87,7 @@ h2 {
 #container {
 	width: 90%;
 	margin: auto;
+	z-index: -10 !important;
 	}
 
 .listing {
@@ -97,7 +98,7 @@ h2 {
 	border: 1px solid lightgray;
 	border-radius: 5px 5px;
 	margin: 5px;
-	z-index: 1;
+	z-index: -10 !important;
 	}	
 
 .listing img {
