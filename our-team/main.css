@@ -79,13 +79,14 @@ div img {
 .imgtd {
 	width: 225px;
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	margin-right: 20px;
+	float: left;
 }
 
 .personalbio {
 	width: calc(70%-250px);
-	display: inline;
+	display: inline-block;
 }
 
 @media (max-width: 991.98px) {
@@ -102,13 +103,17 @@ div img {
 	
 	.personalbio {
 		text-align: center !important;
-		width: 90% !important;
+		width: auto !important;
 		margin: auto;
+		float: none !important;
 	}
 	
 	.imgtd {
 		text-align: center;
-		margin: auto !important;
+		margin-right: 0;
+		margin: 0 !important;
+		text-align: center;
+		float: none !important;
 	}
 	
 	.personal {
@@ -117,7 +122,6 @@ div img {
 	}
 	
 	div img {
-		text-align: center;
 		margin: auto;
 	}
 } 
