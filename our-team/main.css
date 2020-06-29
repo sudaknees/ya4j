@@ -55,7 +55,7 @@ h2 {
 
 #dirlist {
 	margin: auto;
-	width: 75%;
+	width: 70%;
 	padding-top: 30px;
 }
 
@@ -102,7 +102,7 @@ div img {
 	flex-wrap: nowrap;
 	justify-content: center;
 	width: 100%;
-	align-content: center;
+	align-items: center;
 }
 
 @media (max-width: 991.98px) {
