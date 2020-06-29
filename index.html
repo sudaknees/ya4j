@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+		
         <title>Young Artists For Justice</title>
         <link rel="icon" href="favicon.png" type="image/png">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="main.css" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		
     </head>
     
-    <body>
+    <body> <!--
         <div id="navbar">
             <div id="navbarcontent">
                 <a href="/"><h2 id="titlelink">Young Artists For Justice</h2></a>
@@ -25,7 +31,47 @@
                     <a href="contact">Contact</a>
                 </div>
             </div>
-        </div>
+        </div> -->
+		
+		<nav class="navbar navbar-expand-lg navbar-light oldnav" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #CCCCFF, #99CCFF);position: fixed; border-bottom: .25px solid white;width: 100%">
+			<a class="navbar-brand" href="#">Young Artists For Justice</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto" style="text-align: right; float: right;">
+      				<li class="nav-item active">
+        				<a class="nav-link" href="#">Home</a>
+      				</li>
+      				<li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="/mission/">Mission</a>
+							<a class="dropdown-item" href="/our-team/">Our Team</a>
+							<div class="dropdown-divider"></div>
+						</div>
+					</li>
+					<li class="nav-item">
+        				<a class="nav-link" href="https://teespring.com/stores/young-artists-for-justice" target="_blank">Our Store</a>
+      				</li>
+					<li class="nav-item">
+        				<a class="nav-link" href="https://teespring.com/stores/young-artists-for-justice">Organizations</a>
+      				</li>
+					<li class="nav-item">
+        				<a class="nav-link" href="https://teespring.com/stores/young-artists-for-justice">Get Involved</a>
+      				</li>
+					<li class="nav-item">
+        				<a class="nav-link" href="https://teespring.com/stores/young-artists-for-justice">Contact</a>
+      				</li>
+				</ul>
+				<!--
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form> -->
+			</div>
+		</nav>
         
         <div id="mainblock">
             <h1>Young Artists For Justice</h1>

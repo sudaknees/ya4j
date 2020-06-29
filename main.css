@@ -17,8 +17,9 @@ html, body {
 
 /* navigation */
 
-#navbar {
-    background-image: linear-gradient(to left, #CCCCFF, #99CCFF);
+#oldnav {
+	background-color: rgba(0,0,0,0) !important;
+    background-image: linear-gradient(to left, #FF9966, #FF9999) !important;
     width: 100%;
     position: fixed;
     top: 0;
@@ -27,7 +28,6 @@ html, body {
     height: 60px;
     border-bottom: .5px solid white;
     z-index: 100;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
