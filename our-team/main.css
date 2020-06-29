@@ -112,12 +112,11 @@ h2 {
 /* page */
 
 #mainblock {
-    height: 100px;
+    height: auto;
     width: 100%;
     left: 0;
     right: 0;
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding: 140px 0px 110px 0px;
     background-image: linear-gradient(to left, #FF9966, #FF9999);
     text-align: center;
     color: white;
@@ -160,7 +159,12 @@ table h2 {
 
 td {
 	padding: 0px 10px;
-	float: left;
+}
+
+@media (max-width: 991.98px) {
+	.maxwnav {
+		width: 100%;
+	}
 }
 
 
