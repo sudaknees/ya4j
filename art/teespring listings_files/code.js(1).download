@@ -1,0 +1,31 @@
+if(typeof yiel === 'undefined' && 2 !== 4){
+  var yiel = {};
+  var _snaq = _snaq || []; //Analytic requests handler
+
+  yiel = {"website":{"id":5646,"name":"https://teespring.com/","track_yieldify_only":"false","use_snowplow":"","infrequent_basket_updates":"","shopping_class":"","shopping_selector":"","shopping_cart_multiple":"","shopping_initial":null,"coupon_selector":"","submit_coupon_selector":"","submit_coupon_just_click":"","shopping_cart_seperator":".","track_visited_pages":"","track_visited_pages_expire":2592000000,"sign_out_class":"","campaigns_protocol":"//","watchdogs":"140525,140505","cam_ids":"140525,140505","campaigns":"140525,140505","track_products":"","products_url_pattern":"","product_image_css_path":"","form_targeting":"","afiliate_block":"","cookie_block":"","cookie_block_expire":"","referring_traffic_block":"","referring_traffic_expire":"","text_grabb_condition":"no","text_grabb_options":"","track_sale":"true","track_sale_expire":2592000000,"track_impression_sale":"true","track_impression_sales_expire":0,"thanks_page_pattern":"/thank_you,,false,,,,,,;;","sales_extra_details":"","sale_ajax_update":"","track_sale_ajax":"","sub_domains":"","track_purchases":"","last_price_pattern":"","last_price_selector":"","sale_value_multiplier":1.0,"browser_not_target":"","browser_target":"msie|chrome|firefox|safari|opera","delayed_start":0,"iv_delay":10000,"iv_delay_all":"","mouse_hh":0,"aa_delay":0,"bbb_margin":null,"bbb_ratio":8,"bbb_all_location":"","bbb_all_margin":"","bbb_all_ratio":"","exit_margin":"","exit_margin_right":"true","exit_margin_left":"true","exit_margin_right_val":null,"exit_margin_left_val":null,"exit_margin_right_unit":"px","exit_margin_left_unit":"px","show_powerd_by":"","close_image":"","delay":172800000,"encrypt_userinfo":"true","inactivity_period":4,"sale_display_type":"sale","website_sale_display_value":"1.5","block_script":"","heatmap_script":"","ajax_coupon_selector":"","max_products_store":5,"analytics_events":"","analytics_events_category_name":"Yieldify","affiliate_blocker":"","affiliate_block_expire":2592000000,"form_refill":"","url_pattern":"","form_refill_fields":"","form_refill_expire":null,"website_version":2,"website_uuid":"5cf0d9fa-446b-4bb8-8cf5-7f1e04f6845c","shopping_item_selector":"","data_fields":[{"id":738057,"name":"total_price","category":"basket","selector":".orders_summary__wrapper.js_orders_summary .order_summary__total,.shopping_cart_summary__detail.shopping_cart_summary__detail--subtotal .detail__value","url":"checkout|shopping_cart","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":"","url_scraping":false}],"data_events":[],"basket_fields":[{"id":84885,"name":"product_size","selector":".order_summary__item_options > li:first-of-type, .cart-product__detail","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":"^.{1}","url_scraping":false,"url":"checkout|shopping_cart"},{"id":84886,"name":"product_image","selector":".orders_summary__wrapper.js_orders_summary img,.shopping_cart_items__container .cart_item img","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":"","url_scraping":false,"url":"checkout|shopping_cart"},{"id":84887,"name":"product_title","selector":".order_summary_section h5,.shopping_cart_items__container .cart_item .js-back-to-campaign","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":"","url_scraping":false,"url":"checkout|shopping_cart"},{"id":84888,"name":"product_price","selector":".orders_summary__wrapper.js_orders_summary .order_summary__item_price,.shopping_cart_items__container .cart_item span.cart-line__price","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":"","url_scraping":false,"url":"checkout|shopping_cart"},{"id":84889,"name":"product_desc","selector":".order_summary__item_name,.cart-product__detail","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":".*(?=[A-Z]{2})","url_scraping":false,"url":"checkout|shopping_cart"},{"id":84890,"name":"product_details","selector":".order_summary__item_color_label,.cart-product__detail","website_id":5646,"created_at":1571351786,"updated_at":1571351786,"regex":".*","url_scraping":false,"url":"checkout|shopping_cart"}],"form_fields":[]},"info":{"cr":123,"env":"production","dms":{"gls":"geo.yieldify.com","evc":"b.yieldify.com","rt":"rt-proxy.yieldify.com","es":"email-service.yieldify.com"},"request_host_with_port":"app.yieldify.com","src":"//d33wq5gej88ld6.cloudfront.net/code_revisions/000/000/123/original/yieldify_1509471019.js?1509471024"}};
+
+  yiel.md = {};
+
+  // Load Y1-Tag
+  if (yiel.info.src) {
+    var e = document.createElement('script');
+    e.src = yiel.info.src;
+    e.async = true;
+    document.getElementsByTagName("head")[0].appendChild(e);
+  }
+}
+
+(function() {
+  // Load YCP-Tag
+  var websiteVersion = 2;
+  var websiteUuid = '5cf0d9fa-446b-4bb8-8cf5-7f1e04f6845c';
+  if (websiteVersion >= 3) {
+    (function(d){
+      var e=d.createElement('script');
+      e.src='https://td.yieldify.com/yieldify/code.js?w_uuid='+websiteUuid+'&k=1&loca='+window.location.href;
+      e.async=true;
+      d.getElementsByTagName('head')[0].appendChild(e);
+    }(document));
+  }
+})()
+
