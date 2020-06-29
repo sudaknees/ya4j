@@ -13,6 +13,6 @@ function parseXml(xml)
    $("#dirlist").html("<ul id='content' data-role='listview' data-inset='true'></ul>");
   $(xml).find("director").each(function()
   {
-    $("#content").append("<table class='table'><tr><td><img src='"+$(this).find("imgurl").text()+"'/></td><td><h2 class='nametxt'>"+$(this).find("name").text()+"</h2><h2 class='postext'>"+$(this).find("position").text()+"</h2><h3 class='perinfo'>"+$(this).find("age").text()+", "+$(this).find("location").text()+", "+$(this).find("pronouns").text()+"</h3><p>"+$(this).find("bio").text()+"</p></td>");
+    $("#content").append("<table class='table table-responsive'><tr><td><img src='"+$(this).find("imgurl").text()+"'/></td><td><h2 class='nametxt'>"+$(this).find("name").text()+"</h2><h2 class='postext'>"+$(this).find("position").text()+"</h2><h3 class='perinfo'>"+$(this).find("age").text()+", "+$(this).find("location").text()+", "+$(this).find("pronouns").text()+"</h3><p>"+$(this).find("bio").text()+"</p></td>");
   });  
 }
