@@ -65,17 +65,19 @@ div img {
 }
 
 .personalbio h2 {
-	line-height: 60%;
+	line-height: 110%;
 }
 
 .nametxt {
 	color: #FF9966;
 	font-weight: 700;
+	line-height: 75%
 }
 
 .postext {
 	color: #FF9999;
 	font-weight: 400;
+	line-height: 75%
 }
 
 .imgtd {
@@ -83,11 +85,9 @@ div img {
 	text-align: center;
 	display: inline-flex;
 	margin-right: 20px;
-	margin-bottom: 15px;
 }
 
 .personalbio {
-	padding-top: 15px;
 	display: inline-flex;
 }
 
@@ -126,6 +126,7 @@ div img {
 		text-align: center;
 		margin: auto !important;
 		text-align: center;
+		padding-bottom: 15px;
 	}
 	
 	.personal {
