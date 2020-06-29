@@ -2,7 +2,7 @@ $(document).ready(function()
 {
   $.ajax({
     type: "GET",
-    url: "teammembers.xml",
+    url: "artworks.xml",
     dataType: "xml",
     success: parseXml
   });
