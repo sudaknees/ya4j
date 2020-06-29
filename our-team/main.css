@@ -92,45 +92,35 @@ div img {
 	.maxwnav {
 		width: 100%;
 	}
-} 
-
-@media (max-width: 991.98px) {
+	
 	#dirlist {
 		padding-top: 50px;
 		width: 94%;
 		margin: auto;
 		text-align: center;
 	}
-} 
-
-@media (max-width: 991.98px) {
+	
 	.personalbio {
 		text-align: center !important;
 		width: 90% !important;
 		margin: auto;
 	}
-}
-
-@media (max-width: 991.98px) {
+	
 	.imgtd {
 		text-align: center;
 		margin: auto !important;
 	}
-}
-
-@media (max-width: 991.98px) {
+	
 	.personal {
 		text-align: center;
 		margin: auto !important;
 	}
-}
-
-@media (max-width: 991.98px) {
+	
 	div img {
 		text-align: center;
 		margin: auto;
 	}
-}
+} 
 
 /* scrollbar */
 
