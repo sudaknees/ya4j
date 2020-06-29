@@ -22,5 +22,7 @@ function parseXml(xml)
 		});
 		$grid.imagesLoaded().progress( function() {
 		$grid.isotope('layout');
-		});})}
+		});
+	})
+}
 

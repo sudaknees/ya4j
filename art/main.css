@@ -86,13 +86,13 @@ h2 {
 
 @media (min-width: 992px) {
 	.grid-sizer {
-		width: 50%;
+		width: 33%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.grid-sizer {
-		width: 33%;
+		width: 25%;
 	}
 }
 
@@ -100,6 +100,14 @@ h2 {
 	width: 90%;
 	margin: auto;
 	
+}
+
+.listing img {
+	width: 200px;
+}
+
+#container {
+	height: auto !important;
 }
 
 /* scrollbar */
