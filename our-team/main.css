@@ -97,6 +97,7 @@ div img {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	background-color: white;
+	border-bottom: 1px solid gray;
 }
 
 @media (max-width: 991.98px) {
@@ -109,12 +110,11 @@ div img {
 		width: 100%;
 		margin: auto;
 		text-align: center;
-		border-bottom: 1px solid gray;
 	}
 	
 	.personalbio {
 		text-align: center !important;
-		width: 90% !important;
+		width: 80% !important;
 		margin: auto;
 		float: none !important;
 	}
