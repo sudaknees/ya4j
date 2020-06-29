@@ -87,7 +87,7 @@ div img {
 }
 
 .personalbio {
-	width: calc(70%-300px);
+	width: calc(70%-255px);
 	display: inline-flex;
 }
 
