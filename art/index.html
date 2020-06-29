@@ -64,20 +64,5 @@
 		<div id="container">
 		</div>
 		
-		<script>
-			// init Isotope
-			var $grid = $('#container').isotope({
-				itemSelector: '.listing',
-				percentPosition: true,
-				masonry: {
-					columnWidth: '.grid-sizer',
-					gutter: 20
-				}
-			});
-			// layout Isotope after each image loads
-			$grid.imagesLoaded().progress( function() {
-				$grid.isotope('layout');
-			});
-		</script>
     </body>
 </html>
