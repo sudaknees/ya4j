@@ -37,15 +37,6 @@ a {
     -o-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-}
-
-a:hover {
-    letter-spacing: 1px;
-    transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -70,6 +61,7 @@ h2 {
     background-image: linear-gradient(to left, #66CC99, #99CCCC);
     text-align: center;
     color: white;
+	margin-bottom: 30px;
 }
 
 @media (min-width: 576px) {
