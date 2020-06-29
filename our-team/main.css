@@ -65,12 +65,12 @@ div img {
 }
 
 .personalbio h2 {
-	line-height: 50%;
+	line-height: 60%;
 }
 
 .nametxt {
 	color: #FF9966;
-	line-height: 50%;
+	line-height: 60%;
 }
 
 .postext {
@@ -87,7 +87,7 @@ div img {
 }
 
 .personalbio {
-	width: calc(70%-250px);
+	width: calc(70%-275px);
 	display: inline-flex;
 }
 
@@ -102,6 +102,7 @@ div img {
 	flex-wrap: wrap;
 	justify-content: center;
 	width: inherit;
+	align-content: center;
 }
 
 @media (max-width: 991.98px) {
