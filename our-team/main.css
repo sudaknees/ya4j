@@ -101,7 +101,7 @@ div img {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
-	width: inherit;
+	width: 100%;
 	align-content: center;
 }
 
@@ -112,7 +112,7 @@ div img {
 	
 	#dirlist {
 		padding-top: 50px;
-		width: 80% !important;
+		width: 94% !important;
 		margin: auto;
 		text-align: center;
 	}
