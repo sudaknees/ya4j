@@ -94,15 +94,20 @@ h2 {
     font-size: 18pt;
 }
 
+.px-5 {
+	padding-left: ($spacer * 2) !important;
+	padding-right: ($spacer * 2) !important;
+}
+
 
 /* page */
 
 #mainblock {
-    height: 100px;
+    height: auto;
     width: 100%;
     left: 0;
     right: 0;
-    padding: 130px 100px;
+    padding: 140px 0px 110px calc(10% - 20px);
     background-image: linear-gradient(to left, #CCCCFF, #99CCFF);
 }
 
