@@ -99,7 +99,7 @@ div img {
 	margin-top: 20px;
 	background-color: white;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: center;
 	width: inherit;
 	align-content: center;
@@ -131,6 +131,7 @@ div img {
 	.personal {
 		text-align: center;
 		margin: auto !important;
+		flex-wrap: wrap !important;
 	}
 	
 	div img {
