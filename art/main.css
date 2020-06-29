@@ -17,57 +17,16 @@ html, body {
 
 /* navigation */
 
-#navbarcontent {
-    width: 80%;
-    display: inline-flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
+#mainblock a {
+    color: green;
 }
 
-#rightlinks {
-    color: white;
-    font-size: 12pt;
-    font-weight: 300;
+#mainblock a:visited {
+    color: green;
 }
 
-#rightlinks a {
-    color: white;
-}
-
-#rightlinks a:visited {
-    color: white;
-}
-
-#rightlinks a:hover {
+#mainblock a:hover {
     letter-spacing: normal;
-}
-
-#titlelink {
-    color: white;
-}
-
-#aboutdrop {
-    display: none;
-    background-color: rgba(255,255,255,.75);
-    position: absolute;
-    width: 100px;
-    z-index: 101;
-    padding: 5px 5px;
-}
-
-#aboutlink:hover #aboutdrop {
-    display: block;
-    transition: all .5s linear;
-    -o-transition: all .5s linear;
-    -moz-transition: all .5s linear;
-    -webkit-transition: all .5s linear;
-}
-
-.droplink {
-    font-size: 12pt;
-    font-weight: 300;
-    color: #CC99FF !important;
 }
 
 /*general style */
@@ -107,7 +66,7 @@ h2 {
     width: 100%;
     left: 0;
     right: 0;
-    padding: 140px 0px 110px 0px;
+    padding: 140px 10% 110px 10%;
     background-image: linear-gradient(to left, #66CC99, #99CCCC);
     text-align: center;
     color: white;
@@ -135,6 +94,12 @@ h2 {
 	.grid-sizer {
 		width: 33%;
 	}
+}
+
+#container {
+	width: 90%;
+	margin: auto;
+	
 }
 
 /* scrollbar */

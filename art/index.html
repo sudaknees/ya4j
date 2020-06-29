@@ -15,6 +15,7 @@
 		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 		<script src="artlister.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 		
     </head>
     
@@ -28,7 +29,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right; text-align: right;">
     			<ul class="navbar-nav mr-auto" style="display: flex; text-align: right;">
       				<li class="nav-item active">
-        				<a class="nav-link" href="#">Home</a>
+        				<a class="nav-link" href="/">Home</a>
       				</li>
       				<li class="nav-item dropdown">
         				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
@@ -45,7 +46,7 @@
         				<a class="nav-link" href="/organizations/">Organizations</a>
       				</li>
 					<li class="nav-item">
-        				<a class="/get-involved">Get Involved</a>
+        				<a href="/get-involved" class="nav-link">Get Involved</a>
       				</li>
 					<li class="nav-item">
         				<a class="nav-link" href="/contact">Contact</a>
@@ -63,15 +64,13 @@
 		<div id="container">
 		</div>
 		
-		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-		
 		<script>
 			// init Isotope
 			var $grid = $('#container').isotope({
-				itemSelector: '.grid-item',
+				itemSelector: '.listing',
 				percentPosition: true,
 				masonry: {
-					columnWidth: .grid-sizer,
+					columnWidth: '.grid-sizer',
 					gutter: 20
 				}
 			});
