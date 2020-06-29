@@ -97,6 +97,7 @@ h2 {
 	border: 1px solid lightgray;
 	border-radius: 5px 5px;
 	margin: 5px;
+	z-index: 1;
 	}	
 
 .listing img {
