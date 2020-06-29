@@ -37,6 +37,7 @@ a {
     -o-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -91,8 +92,11 @@ h2 {
 #container {
 	width: 90%;
 	margin: auto;
-	
-}
+	}
+
+.listing {
+	float: left;
+	}	
 
 .listing img {
 	width: 200px;
