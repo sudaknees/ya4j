@@ -4,7 +4,7 @@ $(document).ready(function()
     type: "GET",
     url: "artworks.xml",
     dataType: "xml",
-    success: parseXml, 
+    success: parseXml
   });
 });
 
