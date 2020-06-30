@@ -93,9 +93,16 @@ h2 {
 	}
 }
 
-#container {
+#biggercontainer: {
 	width: 90%;
 	margin: auto;
+	text-align: center;
+}
+
+#container {
+	width: auto;
+	margin: auto;
+	height: auto !important;
 	}
 
 .listing {
@@ -109,10 +116,6 @@ h2 {
 
 .listing img {
 	width: 200px;
-}
-
-#container {
-	height: auto !important;
 }
 
 /* scrollbar */
