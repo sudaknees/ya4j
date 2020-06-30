@@ -24,7 +24,8 @@ function runisotope()
 		percentPosition: true,
 		masonry: {
 			columnWidth: '.grid-sizer',
-			gutter: 20}
+			gutter: 20
+		}
 	});
 	$grid.imagesLoaded().progress( function() {
 		$grid.isotope('layout');

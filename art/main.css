@@ -21,6 +21,7 @@ a:visited {
 
 a:hover {
     letter-spacing: normal;
+	color: lightgreen;
 }
 
 /*general style */
@@ -40,12 +41,6 @@ h2 {
     font-size: 18pt;
 }
 
-@media (max-width: 991.98px) {
-	.maxwnav {
-		width: 100%;
-	}
-}
-
 /* page */
 
 #mainblock {
@@ -60,25 +55,39 @@ h2 {
 	margin-bottom: 30px;
 }
 
-@media (min-width: 576px) {
+.grid-sizer {
+		width: 25%;
+	}
+
+@media (max-width: 575.98px) {
 	.grid-sizer {
 		width: 100%;
+		float: none !important;
+		margin: auto;
+	}
+	
+	.listing {
+		float: none !important;
+		margin: auto;
 	}
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
 	.grid-sizer {
 		width: 50%;
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991.98px) {
 	.grid-sizer {
 		width: 33%;
 	}
+	.maxwnav {
+		width: 100%;
+	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1199.98px) {
 	.grid-sizer {
 		width: 25%;
 	}
@@ -92,11 +101,10 @@ h2 {
 .listing {
 	float: left;
 	text-align: center;
-	padding: 5px;
+	padding: 10px 7.5px;
 	background-color: white;
 	border: 1px solid lightgray;
-	border-radius: 5px 5px;
-	margin: 5px;
+	border-radius: 7.5px 7.5px;
 	}	
 
 .listing img {
@@ -118,9 +126,9 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: deepskyblue;
+  background-color: lightseagreen;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: cornflowerblue;
+  background-color: darkseagreen;
 }
