@@ -133,6 +133,18 @@ h2 {
 	width: 200px;
 }
 
+.artinfo {
+	margin-left: 5px;
+	color: #66CC99;
+}
+
+.artinfo::before {
+	content: url(iglogo.svg);
+	width: 10px;
+	height: 10px;
+	color: #99CCCC;
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
