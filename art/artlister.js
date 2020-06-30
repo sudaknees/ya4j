@@ -44,8 +44,3 @@ function runisotope()
 		$grid.isotope('layout');
 	});
 }
-
-$('.sort-by-button-group').on( 'click', 'button', function() {
-	var sortByValue = $(this).attr('data-sort-by');
-	$('#gridthingy').isotope({ sortBy: sortByValue });
-});

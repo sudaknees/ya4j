@@ -67,8 +67,7 @@
 					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="person">Artist A-Z</button>
 					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="personb">Artist Z-A</button>
 				</div>
-				
-				<br />&nbsp;<br />
+				<br />
 				
 				<div class="dropdown">
 					<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter by topic</a>
@@ -87,6 +86,13 @@
 			<div id="gridthingy">
 			</div>
 		</div>
+		
+		<script>
+			$('.sort-by-button-group').on( 'click', 'button', function() {
+				var sortByValue = $(this).attr('data-sort-by');
+				$('#gridthingy').isotope({ sortBy: sortByValue });
+			});
+		</script>
 		
     </body>
 </html>
