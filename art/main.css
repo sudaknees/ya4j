@@ -135,16 +135,20 @@ h2 {
 
 .artinfo {
 	margin-left: 15px;
-	color: #66CC99;
+	display: inline-flex;
+	color: #99CCCC;
 }
 
-.artinfo::before {
-	content: url(iglogo.svg);
-	width: 25px;
-	height: 25px;
-	position: relative;
-	right: 5px;
+.igflexbox img {
+	display: inline-flex;
 }
+
+.igflexbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 
 /* scrollbar */
 
