@@ -45,28 +45,7 @@ function runisotope()
 	});
 }
 
-var $grid = $('#gridthingy').isotope({
-		itemSelector: '.listing',
-		percentPosition: true,
-		masonry: {
-			columnWidth: '.grid-sizer',
-			gutter: 25
-		},
-		getSortData: {
-		name: '.arttitle',
-		nameb: '.arttitle',
-		person: '.artinfo',
-		personb: '.artinfo'
-		},
-		sortAscending: {
-			name: true,
-			nameb: false,
-			person: true,
-			personb: false
-		}
-	});
-
 $('.sort-by-button-group').on( 'click', 'button', function() {
 	var sortByValue = $(this).attr('data-sort-by');
-	$grid.isotope({ sortBy: sortByValue });
+	$('#gridthingy').isotope({ sortBy: sortByValue });
 });
