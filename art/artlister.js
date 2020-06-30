@@ -19,7 +19,7 @@ function parseXml(xml)
 				  
 function runisotope()
 {
-	var $grid = $('#gridthingy).isotope({
+	var $grid = $('#gridthingy').isotope({
 		itemSelector: '.listing',
 		percentPosition: true,
 		filter: '.police, .blm, .lgbt, .misc., .money',
@@ -32,6 +32,7 @@ function runisotope()
 			gutter: 25
 		}
 	});
+
 	$grid.imagesLoaded().progress( function() {
 		$grid.isotope('layout');
 	});
