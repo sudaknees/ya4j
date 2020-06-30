@@ -22,7 +22,7 @@ html, body {
 	color: green;
 }
 
-a {
+.listing a {
 	color: #66CC99;
     text-decoration: none;
     transition: all .5s ease-in-out;
@@ -32,11 +32,11 @@ a {
 }
 
 
-a:visited {
-    color: darkgreen;
+.listing a:visited {
+    color: #66CC99;
 }
 
-a:hover {
+.listing a:hover {
     letter-spacing: 1px;
 	color: lightgreen;
 }
