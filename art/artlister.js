@@ -43,9 +43,10 @@ function runisotope()
 	$grid.imagesLoaded().progress( function() {
 		$grid.isotope('layout');
 	});
-	
-	$('.sort-by-button-group').on( 'click', 'button', function() {
-		var sortByValue = $(this).attr('data-sort-by');
-		$grid.isotope({ sortBy: sortByValue });
-	});
 }
+
+$('.sort-by-button-group').on( 'click', 'button', function() {
+	var sortByValue = $(this).attr('data-sort-by');
+	var $grid = $('#gridthingy');
+	$grid.isotope({ sortBy: sortByValue });
+});
