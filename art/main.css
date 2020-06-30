@@ -3,6 +3,9 @@ FONT FACE STUFF:
 font-family: 'Roboto Condensed', sans-serif;
 */
 
+
+/*general style */
+
 * {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -20,11 +23,13 @@ a:visited {
 }
 
 a:hover {
-    letter-spacing: normal;
+    letter-spacing: 1px;
 	color: lightgreen;
 }
 
-/*general style */
+a:hover img {
+    letter-spacing: normal;
+}
 
 a {
 	color: green;
