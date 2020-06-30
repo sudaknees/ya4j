@@ -62,6 +62,7 @@
 		<div id="biggercontainer">
 			<div id="sortboxes">
 				<div class="sort-by-button-group">
+					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="original-order">Original</button>
 					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="name">Title A-Z</button>
 					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="nameb">Title Z-A</button>
 					<button type="button" class="btn btn-outline-info btn-sm" aria-pressed="false" data-sort-by="person">Artist A-Z</button>
@@ -72,14 +73,14 @@
 				<div class="dropdown">
 					<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter by topic</a>
 					
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#" data-filter="">All</a>
-						<a class="dropdown-item" href="#" data-filter=".police">Abolition</a>
-    					<a class="dropdown-item" href="#" data-filter=".blm">BLM</a>
-						<a class="dropdown-item" href="#" data-filter=".money">Capitalism</a>
-    					<a class="dropdown-item" href="#" data-filter=".lgbt">Pride</a>
-						<a class="dropdown-item" href="#" data-filter=".misc">Misc.</a>
-					</div>
+					<select class="custom-select filters-select custom-select-sm">
+						<option value="*">All</option>
+						<option value=".police">Abolition</option>
+						<option value=".blm">Black Lives Matter</option>
+						<option value=".money">Capitalism</option>
+						<option value=".lgbt">Pride</option>
+						<option value=".misc">Miscellaneous</option>
+					</select>
 				</div>
 				
 			</div>
@@ -91,6 +92,14 @@
 			$('.sort-by-button-group').on( 'click', 'button', function() {
 				var sortByValue = $(this).attr('data-sort-by');
 				$('#gridthingy').isotope({ sortBy: sortByValue });
+			});
+			
+			$('.filters-select').on( 'change', function() {
+				// get filter value from option value
+				var filterValue = this.value;
+				// use filterFn if matches value
+				filterValue = filterFns[ filterValue ] || filterValue;
+				$grid.isotope({ filter: filterValue });
 			});
 		</script>
 		
