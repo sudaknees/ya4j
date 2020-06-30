@@ -24,8 +24,9 @@ function runisotope()
 		percentPosition: true,
 		filter: '.police, .blm, .lgbt, .misc., .money',
 		getSortData: {
-				  name: '.name',
-				  symbol: '.symbol'
+			name: '.name',
+			symbol: '.symbol'
+		}
 		masonry: {
 			columnWidth: '.grid-sizer',
 			gutter: 25
