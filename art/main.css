@@ -18,6 +18,20 @@ html, body {
     overflow-x: hidden;
 }
 
+#mainblock a {
+	color: green;
+}
+
+a {
+	color: #66CC99;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
 a:visited {
     color: darkgreen;
 }
@@ -29,15 +43,6 @@ a:hover {
 
 a:hover img {
     letter-spacing: normal;
-}
-
-a {
-	color: green;
-    text-decoration: none;
-    transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 h2 {
@@ -141,6 +146,8 @@ h2 {
 
 .igflexbox img {
 	display: inline-flex;
+	width: 20px !important;
+	height: 20px !important;
 }
 
 .igflexbox {
