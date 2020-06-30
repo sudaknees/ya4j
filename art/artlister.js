@@ -7,7 +7,7 @@ $(document).ready(function()
     success: parseXml,
 	complete: runisotope
   });
-}
+});
 
 function parseXml(xml)
 {
