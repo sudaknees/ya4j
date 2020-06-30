@@ -63,16 +63,8 @@ h2 {
 	}
 }
 
-#biggercontainer {
-	width: 90%;
-	margin: auto;
-	text-align: center;
-	height: auto;
-}
-
 #container {
-	width: auto;
-	margin: auto;
+	width: 90%;
 	height: auto !important;
 	margin: 0 auto;
 	}
