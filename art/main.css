@@ -78,8 +78,14 @@ h2 {
 	.grid-sizer {
 		width: 30%;
 	}
-	#biggercontainer, .maxwnav {
+	
+	.maxwnav {
 		width: 100%;
+	}
+	
+	#biggercontainer {
+		width: 100%;
+		margin: auto;
 	}
 }
 
