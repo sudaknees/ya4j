@@ -22,7 +22,6 @@ function runisotope()
 	var $grid = $('#gridthingy').isotope({
 		itemSelector: '.listing',
 		percentPosition: true,
-		filter: '.police, .blm, .lgbt, .misc., .money',
 		getSortData: {
 			name: '.name',
 			symbol: '.symbol'
