@@ -134,7 +134,7 @@ h2 {
 }
 
 .artinfo {
-	margin-left: 5px;
+	margin-left: 15px;
 	color: #66CC99;
 }
 
@@ -143,6 +143,8 @@ h2 {
 	width: 10px;
 	height: 10px;
 	color: #99CCCC;
+	position: relative;
+	right: 5px;
 }
 
 /* scrollbar */
