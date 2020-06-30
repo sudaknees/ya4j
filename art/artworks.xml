@@ -5,7 +5,7 @@
         <title>This Is America</title>
 		<artist>safezone4all</artist>
 		<segment>blm</segment>
-		<imageurl>artfiles/37.jpg</imageurl>
+		<imageurl>37.jpg</imageurl>
 		<charity>Brooklyn Bail Fund</charity>
 		<shopurl>https://www.teespring.com/this-is-america-7291</shopurl>
 	</artwork>
@@ -14,7 +14,7 @@
 		<title>My Color Is Not A Crime</title>
 		<artist>rat.clown</artist>
 		<segment>blm</segment>
-		<imageurl>artfiles/38.jpg</imageurl>
+		<imageurl>38.jpg</imageurl>
 		<charity>Therapy Fund for Black Women and Girls</charity>
 		<shopurl>https://teespring.com/get-my-color-is-not-a-crime</shopurl>
 	</artwork>
@@ -23,8 +23,8 @@
 		<title>Worth</title>
 		<artist>rat.clown</artist>
 		<segment>blm</segment>
-		<imageurl>artfiles/39.jpg</imageurl>
-		<charity>Therapy Fund for Black Women and Girls</charity>
+		<imageurl>39.jpg</imageurl>
+		<charity>Loveland Therapy Fund for Black Women and Girls</charity>
 		<shopurl>https://teespring.com/worth-june-2020</shopurl>
 	</artwork>
 	
@@ -32,8 +32,8 @@
 		<title>Your Racism Will Never Be Patriotic</title>
 		<artist>fable_cove</artist>
 		<segment>police</segment>
-		<imageurl>artfiles/40.jpg</imageurl>
-		<charity>ACLU</charity>
+		<imageurl>40.jpg</imageurl>
+		<charity>American Civil Liberties Union</charity>
 		<shopurl>https://teespring.com/your-racism-will-never-be-patr</shopurl>
 	</artwork>
 	
@@ -41,7 +41,7 @@
 		<title>Eat The Rich</title>
 		<artist>clownwithlemons</artist>
 		<segment>money</segment>
-		<imageurl>artfiles/41.jpg</imageurl>
+		<imageurl>41.jpg</imageurl>
 		<charity>Pimento Relief Fund</charity>
 		<shopurl>https://teespring.com/eat-the-rich-june-2020</shopurl>
 	</artwork>
@@ -50,7 +50,7 @@
 		<title>DEFUND POLICE</title>
 		<artist>thereisnozoolonlyart</artist>
 		<segment>police</segment>
-		<imageurl>artfiles/42.jpg</imageurl>
+		<imageurl>42.jpg</imageurl>
 		<charity>Campaign Zero</charity>
 		<shopurl>https://teespring.com/new-defund-police</shopurl>
 	</artwork>
@@ -59,7 +59,7 @@
 		<title>up in (all of our) arms</title>
 		<artist>thereisnozoolonlyart</artist>
 		<segment>blm</segment>
-		<imageurl>artfiles/43.jpg</imageurl>
+		<imageurl>43.jpg</imageurl>
 		<charity>The Advancement Project</charity>
 		<shopurl>https://teespring.com/up-in-all-of-our-arms</shopurl>
 	</artwork>
@@ -68,18 +68,354 @@
 		<title>I WILL STAND</title>
 		<artist>thereisnozoolonlyart</artist>
 		<segment>blm</segment>
-		<imageurl>artfiles/44.jpg</imageurl>
+		<imageurl>44.jpg</imageurl>
 		<charity>NAACP Legal Defense Fund</charity>
 		<shopurl>https://teespring.com/new-i-will-stand</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>It's Not Our Fault</title>
+		<artist>kiwicove</artist>
+		<segment>pride blm</segment>
+		<imageurl>45.jpg</imageurl>
+		<charity>Loveland Therapy Fund for Black Women and Girls</charity>
+		<shopurl>https://teespring.com/it-s-not-our-fault</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>BLM (1)</title>
+		<artist>ifbeatlemaniawaspunk</artist>
+		<segment>blm</segment>
+		<imageurl>47.jpg</imageurl>
+		<charity>Black Trans Travel Fund</charity>
+		<shopurl>https://teespring.com/blm-4652</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>BLM (2)</title>
+		<artist>ifbeatlemaniawaspunk</artist>
+		<segment>blm</segment>
+		<imageurl>46.jpg</imageurl>
+		<charity>Black Trans Travel Fund</charity>
+		<shopurl>https://teespring.com/blm-2-2020</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>PIGZ</title>
+		<artist>milk_grips</artist>
+		<segment>police blm</segment>
+		<imageurl>48.jpg</imageurl>
+		<charity>NAACP Legal Defense Fund</charity>
+		<shopurl>https://teespring.com/get-pigz</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Why Am I Less?</title>
+		<artist>aalmondd.milkk</artist>
+		<segment>blm</segment>
+		<imageurl>49.jpg</imageurl>
+		<charity>Human Rights Campaign</charity>
+		<shopurl>https://teespring.com/new-why-am-i-less</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Black Lesbian Lives Matter</title>
+		<artist>spacey.gracious2.0</artist>
+		<segment>lgbt blm</segment>
+		<imageurl>10.jpg</imageurl>
+		<charity>Black, Queer, & Intersectional Collective</charity>
+		<shopurl>https://teespring.com/black-lesbian-lives-mattert</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>ignorance</title>
+		<artist>kiisanga</artist>
+		<segment>blm pride</segment>
+		<imageurl>34.png</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/ignorance-6842</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>1312 (ACAB)</title>
+		<artist>alecia_n_ross</artist>
+		<segment>police</segment>
+		<imageurl>50.jpg</imageurl>
+		<charity>NC Community Bail Fund of Durham</charity>
+		<shopurl>https://teespring.com/1312-9981</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>we are with you</title>
+		<artist>the.italian-draws</artist>
+		<segment>blm</segment>
+		<imageurl>51.jpg</imageurl>
+		<charity>Black Lives Matter</charity>
+		<shopurl>https://teespring.com/wear-we-are-with-you</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>black trans lives matter</title>
+		<artist>wrenniethepoohart</artist>
+		<segment>blm pride</segment>
+		<imageurl>52.jpg</imageurl>
+		<charity>NAACP Legal Defense Fund</charity>
+		<shopurl>https://teespring.com/black-trans-lives-matter-2754</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>F**K THE POLICE (1)</title>
+		<artist>milk_grips</artist>
+		<segment>police</segment>
+		<imageurl>53.jpg</imageurl>
+		<charity>The Bail Project</charity>
+		<shopurl>https://teespring.com/wear-f-k-the-police</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>F**K THE POLICE (2)</title>
+		<artist>milk_grips</artist>
+		<segment>police</segment>
+		<imageurl>54.jpg</imageurl>
+		<charity>The Bail Project</charity>
+		<shopurl>https://teespring.com/get-f-k-the-police</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>F**K THE POLICE (3)</title>
+		<artist>milk_grips</artist>
+		<segment>police</segment>
+		<imageurl>55.jpg</imageurl>
+		<charity>The Bail Project</charity>
+		<shopurl>https://teespring.com/new-f-k-the-police</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>black lives are beautiful</title>
+		<artist>danishpineapple</artist>
+		<segment>blm</segment>
+		<imageurl>56.jpg</imageurl>
+		<charity>Black, Queer, & Intersectional Collective</charity>
+		<shopurl>https://teespring.com/new-black-lives-are-beautiful</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>ACAB</title>
+		<artist>gudrun.campbell</artist>
+		<segment>police</segment>
+		<imageurl>57.jpg</imageurl>
+		<charity>NAACP Legal Defense Fund</charity>
+		<shopurl>https://teespring.com/acab-2085</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>unsilenceable</title>
+		<artist>kiisanga</artist>
+		<segment>blm</segment>
+		<imageurl>35.png</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/unsilencable</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Justice</title>
+		<artist>luana.g.m</artist>
+		<segment>blm police</segment>
+		<imageurl>58.jpg</imageurl>
+		<charity>Color of Change</charity>
+		<shopurl>https://teespring.com/justice-4520</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Olive Branch</title>
+		<artist>wrenniethepoohart</artist>
+		<segment>blm</segment>
+		<imageurl>59.jpg</imageurl>
+		<charity>Various bail funds</charity>
+		<shopurl>https://teespring.com/olive-branch-2020</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>see us</title>
+		<artist>rat.clown</artist>
+		<segment>blm</segment>
+		<imageurl>36.jpg</imageurl>
+		<charity>Loveland Therapy Fund for Black Women and Girls</charity>
+		<shopurl>https://teespring.com/get-see-us</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Don't Shoot</title>
+		<artist>rube_iks</artist>
+		<segment>blm police</segment>
+		<imageurl>60.jpg</imageurl>
+		<charity>Human Rights Council</charity>
+		<shopurl>https://teespring.com/don-t-shoot-8673</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>justice for breonna</title>
+		<artist>rat.clown</artist>
+		<segment>blm</segment>
+		<imageurl>61.jpg</imageurl>
+		<charity>Loveland Therapy Fund for Black Women and Girls</charity>
+		<shopurl>https://teespring.com/get-justice-for-breonna</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>floral ACABery</title>
+		<artist>zeepersthewriter</artist>
+		<segment>police</segment>
+		<imageurl>7.png</imageurl>
+		<charity>LA Black Lives Matter</charity>
+		<shopurl>https://teespring.com/floral-acaberyt</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Frogs for BLM</title>
+		<artist>kiisanga</artist>
+		<segment>blm</segment>
+		<imageurl>14.png</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/frogs-for-blm</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Frogs Say Fuck The Police</title>
+		<artist>kiisanga</artist>
+		<segment>police</segment>
+		<imageurl>15.png</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/frogs-say-fuck-the-police</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Frogs Say All Cops Are Bad</title>
+		<artist>kiisanga</artist>
+		<segment>police</segment>
+		<imageurl>16.png</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/frogs-say-all-cops-are-bad</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Black Trans Lives Matter</title>
+		<artist>safezone4all</artist>
+		<segment>lgbt pride</segment>
+		<imageurl>1.jpg</imageurl>
+		<charity>Marsha P. Johnson Institute</charity>
+		<shopurl>https://teespring.com/black-trans-lives-matter-5623</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Abolish Prisons</title>
+		<artist>safezone4all</artist>
+		<segment>police</segment>
+		<imageurl>2.jpg</imageurl>
+		<charity>The Innocence Project</charity>
+		<shopurl>https://teespring.com/abolish-prisons</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>The Rich Are Thieves</title>
+		<artist>safezone4all</artist>
+		<segment>money</segment>
+		<imageurl>11.jpg</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/the-rich-are-thieves</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>won't be silenced</title>
+		<artist>aalmondd.milkk</artist>
+		<segment>blm</segment>
+		<imageurl>24.jpg</imageurl>
+		<charity>Human Rights Campaign</charity>
+		<shopurl>https://teespring.com/new-won-t-be-silenced</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>We Are With You</title>
+		<artist>aalmondd.milkk</artist>
+		<segment>blm</segment>
+		<imageurl>18.png</imageurl>
+		<charity>Human Rights Campaign</charity>
+		<shopurl>https://teespring.com/we-are-with-you-2020</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Black Lives Matter</title>
+		<artist>safezone4all</artist>
+		<segment>blm</segment>
+		<imageurl>3.jpg</imageurl>
+		<charity>Color of Change</charity>
+		<shopurl>https://teespring.com/black-lives-matter-1969</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Only Human</title>
+		<artist>c_fisher48</artist>
+		<segment>blm misc</segment>
+		<imageurl>5.jpg</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/only-human-june-2020</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>We Won't Be Silenced</title>
+		<artist>c_fisher48</artist>
+		<segment>blm</segment>
+		<imageurl>6.jpg</imageurl>
+		<charity>NAACP Legal Defense Fund</charity>
+		<shopurl>https://teespring.com/new-we-won-t-be-silenced</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Unnamed</title>
+		<artist>c_fisher48</artist>
+		<segment>misc</segment>
+		<imageurl>25.jpg</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/unnamed-2020</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Blue Da Ba Dee Da Ba Dye</title>
+		<artist>wrenniethepoohart</artist>
+		<segment>misc</segment>
+		<imageurl>26.jpg</imageurl>
+		<charity>NAACP Legal Defense Fund</charity>
+		<shopurl>https://teespring.com/blue-da-ba-dee-da-ba-dye</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>Wake and Bake</title>
+		<artist>wrenniethepoohart</artist>
+		<segment>misc</segment>
+		<imageurl>27.jpg</imageurl>
+		<charity>American Civil Liberties Union</charity>
+		<shopurl>https://teespring.com/wake-and-bake-7592</shopurl>
+	</artwork>
+	
+	<artwork>
+		<title>PSA</title>
+		<artist>thereisnozoolonlyart</artist>
+		<segment>blm</segment>
+		<imageurl>29.jpg</imageurl>
+		<charity>Embracing Equity</charity>
+		<shopurl>https://teespring.com/psa-june-2020</shopurl>
 	</artwork>
 		
 	<!--<artwork>
 		<title></title>
 		<artist></artist>
 		<segment></segment>
-		<imageurl>artfiles/</imageurl>
+		<imageurl></imageurl>
 		<charity></charity>
 		<shopurl></shopurl>
-	</artwork> -->
+	</artwork> 
+	
+	lgbt women ones, bi blm solidarity, rushmore re, say their names, our color is not wrong, acab fairy
+-->
 	
 </pieces>
