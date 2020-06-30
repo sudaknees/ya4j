@@ -136,24 +136,11 @@ h2 {
 
 .listing img {
 	width: 200px;
+	margin-bottom: 15px;
 }
 
 .artinfo {
-	margin-left: 15px;
-	display: inline-flex;
 	color: #99CCCC;
-}
-
-.igflexbox img {
-	display: inline-flex;
-	width: 20px !important;
-	height: 20px !important;
-}
-
-.igflexbox {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 
