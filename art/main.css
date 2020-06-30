@@ -78,7 +78,7 @@ h2 {
 	}
 }
 
-@media (min-width: 991.98px) {
+@media (max-width: 991.98px) {
 	.grid-sizer {
 		width: 33%;
 	}
@@ -93,10 +93,11 @@ h2 {
 	}
 }
 
-#biggercontainer: {
+#biggercontainer {
 	width: 90%;
 	margin: auto;
 	text-align: center;
+	height: auto;
 }
 
 #container {
@@ -112,6 +113,7 @@ h2 {
 	background-color: white;
 	border: 1px solid lightgray;
 	border-radius: 7.5px 7.5px;
+	margin-bottom: 25px;
 	}	
 
 .listing img {
