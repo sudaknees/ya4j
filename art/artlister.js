@@ -25,10 +25,27 @@ function runisotope()
 		masonry: {
 			columnWidth: '.grid-sizer',
 			gutter: 25
+		},
+		getSortData: {
+		name: '.name',
+		nameb: '.name',
+		person: '.symbol',
+		personb: '.symbolb'
+		},
+		sortAscending: {
+			name: true,
+			nameb: false,
+			person: true,
+			personb: false
 		}
 	});
 
 	$grid.imagesLoaded().progress( function() {
 		$grid.isotope('layout');
+	});
+	
+	$('.sort-by-button-group').on( 'click', 'button', function() {
+		var sortByValue = $(this).attr('data-sort-by');
+		$grid.isotope({ sortBy: sortByValue });
 	});
 }
