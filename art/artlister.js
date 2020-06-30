@@ -24,7 +24,8 @@ function runisotope()
 		percentPosition: true,
 		masonry: {
 			columnWidth: '.grid-sizer',
-			gutter: 25
+			gutter: 25,
+			horizontalOrder: true
 		},
 		getSortData: {
 		name: '.arttitle',
