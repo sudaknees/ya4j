@@ -59,12 +59,6 @@ h2 {
 		width: 25%;
 	}
 
-@media (min-width: 1199.98px) {
-	.grid-sizer {
-		width: 25%;
-	}
-}
-
 @media (max-width: 991.98px) {
 	.grid-sizer {
 		width: 30%;
