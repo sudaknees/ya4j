@@ -21,10 +21,10 @@ function runisotope()
 {
 	var $grid = $('#container').isotope({
 		itemSelector: '.listing',
-		percentPosition: true,
 		masonry: {
-			columnWidth: '.grid-sizer',
-			gutter: 25
+			columnWidth: 250,
+			gutter: 25,
+			fitWidth: true
 		}
 	});
 	$grid.imagesLoaded().progress( function() {

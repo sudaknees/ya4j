@@ -55,31 +55,7 @@ h2 {
 	margin-bottom: 30px;
 }
 
-.grid-sizer {
-		width: 25%;
-	}
-
-@media (max-width: 991.98px) {
-	.grid-sizer {
-		width: 30%;
-	}
-	.maxwnav {
-		width: 50%;
-	}
-}
-
-@media (max-width: 767.98px) {
-	.grid-sizer {
-		width: 100%;
-	}
-}
-
 @media (max-width: 575.98px) {
-	.grid-sizer {
-		width: 100%;
-		float: none !important;
-		margin: auto;
-	}
 	
 	.listing {
 		float: none !important;
@@ -98,6 +74,7 @@ h2 {
 	width: auto;
 	margin: auto;
 	height: auto !important;
+	margin: 0 auto;
 	}
 
 .listing {
