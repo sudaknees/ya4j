@@ -140,9 +140,8 @@ h2 {
 
 .artinfo::before {
 	content: url(iglogo.svg);
-	width: 10px;
-	height: 10px;
-	color: #99CCCC;
+	width: 25px;
+	height: 25px;
 	position: relative;
 	right: 5px;
 }
