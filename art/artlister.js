@@ -22,10 +22,6 @@ function runisotope()
 	var $grid = $('#gridthingy').isotope({
 		itemSelector: '.listing',
 		percentPosition: true,
-		getSortData: {
-			name: '.name',
-			symbol: '.symbol'
-		}
 		masonry: {
 			columnWidth: '.grid-sizer',
 			gutter: 25
