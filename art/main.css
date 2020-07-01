@@ -92,7 +92,7 @@ h2 {
 	
 	#biggercontainer {
 		width: 90%;
-		margin-left: 5%;
+		margin: 0 auto;
 	}
 }
 
@@ -109,9 +109,8 @@ h2 {
 }
 
 #gridthingy {
-	width: auto;
-	margin: auto;
-	position: relative !important;
+	width: 100%;
+	margin: 0 auto;
 	}
 
 .listing {
