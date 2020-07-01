@@ -20,10 +20,11 @@ function runisotope()
 {
 	var $grid = $('#gridthingy').isotope({
 		itemSelector: '.listing',
-		fitWidth: true,
 		masonry: {
-			columnWidth: '.grid-sizer',
-			horizontalOrder: true
+			columnWidth: 300,
+			horizontalOrder: true,
+			gutter: 25,
+			fitWidth: true
 		},
 		getSortData: {
 			name: function( itemElem ) {
