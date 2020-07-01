@@ -96,18 +96,6 @@ h2 {
 	}
 }
 
-@media (max-width: 575.98px) {
-	.grid-sizer {
-		float: none !important;
-		margin: auto;
-	}
-	
-	.listing {
-		float: none !important;
-		margin: auto;
-	}
-}
-
 #gridthingy {
 	margin: 0 auto;
 	}
