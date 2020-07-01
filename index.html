@@ -80,7 +80,7 @@
 						url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1',
 						dataType: 'html',
 						success: function yayalert(data, status, request){
-							jQuery("#result").empty().append("Thanks for signing up!");
+							jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val('');
 						},
 						error: function booalert(request, status, error) {
 							alert('Sorry, we were unable to process your subscription.');
