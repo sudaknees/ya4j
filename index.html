@@ -77,10 +77,12 @@
 					jQuery.ajax({
 						type: 'POST',
 						data: data,
-						url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1',
+						url: 'https://youngartistsforjustice.org/phplist/?p=asubscribe&id=1',
 						dataType: 'html',
 						success: function yayalert(data, status, request){
-							jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val('');
+							jQuery("#result").empty().append(data != '' ? data : successMessage);
+							jQuery('#attribute1').val('');
+							jQuery('#email').val('');
 						},
 						error: function booalert(request, status, error) {
 							alert('Sorry, we were unable to process your subscription.');
@@ -97,7 +99,7 @@
 			<form method="post" name="subscribeform" id="subscribeform">
 				<div class="form-group">
 					<label>Email:</label>
-					<input class="form-control" type="text" name="email" value= "">
+					<input class="form-control" type="text" name="email" value= "" id="email">
 					<script language="Javascript" type="text/javascript">addFieldToCheck("email","Email Address");</script>
 					<input type="hidden" name="htmlemail" value="1">
 					<small class="form-text text-muted">We'll never share your email with anyone else.</small>
