@@ -23,7 +23,6 @@ function runisotope()
 		fitWidth: true,
 		masonry: {
 			columnWidth: '.grid-sizer',
-			gutter: 25,
 			horizontalOrder: true
 		},
 		getSortData: {
