@@ -74,7 +74,6 @@
 				}
 
 				function submitform() {
-					successMessage = "Thanks! You've been added to our newsletter :)";
 					data = jQuery('#subscribeform').serialize();
 					jQuery.ajax({
 						type: 'POST',
@@ -82,7 +81,7 @@
 						url: 'https://youngartistsforjustice.org/phplist/?p=asubscribe&id=1',
 						dataType: 'html',
 						success: function yayalert(data, status, request){
-							jQuery("#result").empty().append(data != '' ? data : successMessage);
+							jQuery("#result").empty().append("Thanks! You've been added to our newsletter :)");
 							jQuery('#attribute1').val('');
 							jQuery('#email').val('');
 						},
