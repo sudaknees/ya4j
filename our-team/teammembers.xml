@@ -13,13 +13,23 @@
     
     <director>
         <name>Samira Akbary</name>
-        <age>18</age>
+        <age>17</age>
         <location>USA</location>
         <pronouns>she/her</pronouns>
         <position>Co-Director of Development and Management</position>
         <bio>Samira is a rising high school senior. At school, she has been a passionate member of Young Dems and held leadership positions in Key Club. Outside of school, she was the founder of Letters 4 Docs, which wrote over 400 COVID-19 relief letters to medical personnel. She is also the Director of Civil Rights Advocacy at the Greater Good Initiative which elevates youth voices in public policy.</bio>
         <imgurl>samira.jpg</imgurl>
     </director>
+	
+	<director>
+		<name>Lou Weinstein</name>
+		<age>21</age>
+		<location>Canada</location>
+		<pronouns>they/them</pronouns>
+		<position>Director of Research</position>
+		<bio>Lou is from Atlanta, GA and based in Montréal, QC. They have a passion for social justice, research, and educational advocacy along with entomology, mycology, and botany. They are in their last year of undergraduate before heading to graduate school to pursue medical/scientific illustration; they are also a tattoo artist. If they're not at school, they are usually on the train reading any social justice, advocacy awareness, and/or socialist rhetoric they can get their hands on, gardening on their tiny balcony, tattooing, or drawing/painting!</bio>
+		<imgurl>lou.jpg</imgurl>
+	</director>
 	
     <director>
         <name>Nina Kisanga</name>
@@ -31,13 +41,4 @@
         <imgurl>nina.jpg</imgurl>
     </director>
     
-	<director>
-		<name>Lou Weinstein</name>
-		<age>21</age>
-		<location>Canada</location>
-		<pronouns>they/them</pronouns>
-		<position>Director of Research</position>
-		<bio>Lou is from Atlanta, GA and based in Montréal, QC. They have a passion for social justice, research, and educational advocacy along with entomology, mycology, and botany. They are in their last year of undergraduate before heading to graduate school to pursue medical/scientific illustration; they are also a tattoo artist. If they're not at school, they are usually on the train reading any social justice, advocacy awareness, and/or socialist rhetoric they can get their hands on, gardening on their tiny balcony, tattooing, or drawing/painting!</bio>
-		<imgurl>lou.jpg</imgurl>
-	</director>
 </directors>
