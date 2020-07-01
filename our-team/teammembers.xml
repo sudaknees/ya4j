@@ -8,7 +8,7 @@
 		<pronouns>she/her</pronouns>
 		<position>Founder, Executive Director</position>
 		<bio>Sadie Honchock is a rising senior at University View Academy where she is pursuing her high school diploma and her Associate's of Arts in Humanities. She is a self-taught artist, author, and youth activist who aspires to be a staff attorney for the ACLU when she is older.</bio>
-		<imgurl>sadie.jpg</imgurl>
+		<imgurl>sadie.png</imgurl>
 	</director>
 	
     <director>
@@ -39,6 +39,16 @@
 		<position>Director of Research</position>
 		<bio>Lou is from Atlanta, GA and based in Montréal, QC. They have a passion for social justice, research, and educational advocacy along with entomology, mycology, and botany. They are in their last year of undergraduate before heading to graduate school to pursue medical/scientific illustration; they are also a tattoo artist. If they're not at school, they are usually on the train reading any social justice, advocacy awareness, and/or socialist rhetoric they can get their hands on, gardening on their tiny balcony, tattooing, or drawing/painting!</bio>
 		<imgurl>lou.jpg</imgurl>
+	</director>
+	
+	<director>
+		<name>Cameron Fischer</name>
+		<age>15</age>
+		<location>USA</location>
+		<pronouns>she/her</pronouns>
+		<position>Co-Director of Outreach and Marketing</position>
+		<bio>Cameron is a rising Sophomore in Raleigh, NC. She is spends her time in school helping with the student government and tutoring underprivileged elementary students from a local school. She is an advocate for social justice, educational equity, and the climate crisis. In addition to working small scale in her local area, she is part of Fridays for Future Digital. She hopes to go into law or education when she is older.</bio>
+		<imgurl>cameron.jpeg</imgurl>
 	</director>
 	
     <director>
