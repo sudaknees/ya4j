@@ -28,10 +28,22 @@ function runisotope()
 			horizontalOrder: true
 		},
 		getSortData: {
-		name: '.arttitle',
-		nameb: '.arttitle',
-		person: '.artinfo',
-		personb: '.artinfo'
+		name: function( itemElem ) {
+      var name = $( itemElem ).find('.arttitle').text();
+      return name.toLowerCase();
+		},
+		nameb: function( itemElem ) {
+      var name = $( itemElem ).find('.arttitle').text();
+      return name.toLowerCase();
+		},
+		person: function( itemElem2 ) {
+      var name = $( itemElem2 ).find('.artinfo').text();
+      return name.toLowerCase();
+		},
+		personb: function( itemElem2 ) {
+      var name = $( itemElem2 ).find('.artinfo').text();
+      return name.toLowerCase();
+		}
 		},
 		sortAscending: {
 			name: true,
