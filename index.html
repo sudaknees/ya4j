@@ -73,7 +73,6 @@
 				}
 
 				function submitform() {
-					successMessage = 'Thank you for your signing up!';
 					data = jQuery('#subscribeform').serialize();
 					jQuery.ajax({
 						type: 'POST',
@@ -81,7 +80,7 @@
 						url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1',
 						dataType: 'html',
 						success: function yayalert(data, status, request){
-							jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val('');
+							jQuery("#result").empty().append("Thanks for signing up!");
 						},
 						error: function booalert(request, status, error) {
 							alert('Sorry, we were unable to process your subscription.');
