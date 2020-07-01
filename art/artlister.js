@@ -20,7 +20,7 @@ function runisotope()
 {
 	var $grid = $('#gridthingy').isotope({
 		itemSelector: '.listing',
-		percentPosition: true,
+		fitWidth: true,
 		masonry: {
 			columnWidth: '.grid-sizer',
 			gutter: 25,
