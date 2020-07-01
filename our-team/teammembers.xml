@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <directors>
+	<director>
+		<name>Sadie Honchock</name>
+		<age>17</age>
+		<location>USA</location>
+		<pronouns>she/her</pronouns>
+		<position>Founder, Executive Director</position>
+		<bio>Sadie Honchock is a rising senior at University View Academy where she is pursuing her high school diploma and her Associate's of Arts in Humanities. She is a self-taught artist, author, and youth activist who aspires to be a staff attorney for the ACLU when she is older.</bio>
+		<imgurl>sadie.jpg</imgurl>
+	</director>
+	
     <director>
         <name>Megan Cooper</name>
         <age>18</age>

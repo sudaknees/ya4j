@@ -60,6 +60,7 @@
 			<script type="text/javascript">
 				var fieldstocheck = new Array();
 				fieldnames = new Array();
+				
 				function checkform() {
 					for (i=0;i<fieldstocheck.length;i++) {
 						if (eval("document.subscribeform.elements['"+fieldstocheck[i]+"'].value") == "") {
@@ -74,11 +75,10 @@
 				function submitform() {
 					successMessage = 'Thank you for your signing up!';
 					data = jQuery('#subscribeform').serialize();
-					alert('juuust testing');
 					jQuery.ajax({
 						type: 'POST',
 						data: data,
-						url: 'http://youngartistsforjustice.org/phplist/?p=subscribe&id=1',
+						url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1',
 						dataType: 'html',
 						success: function yayalert(data, status, request){
 							jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val('');
@@ -96,14 +96,20 @@
 			</script>
 			
 			<form method="post" name="subscribeform" id="subscribeform">
-				Email:
-				<input type="text" name="email" value= ""><br>
-				<script language="Javascript" type="text/javascript">addFieldToCheck("email","Email Address");</script>
+				<div class="form-group">
+					<label>Email:</label>
+					<input class="form-control" type="text" name="email" value= ""><br>
+					<script language="Javascript" type="text/javascript">addFieldToCheck("email","Email Address");</script>
+					<small class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
 				
-				Name: <input type="text" name="attribute1" value = "" value id="attribute1">
-				<script language="Javascript" type="text/javascript">addFieldToCheck("attribute1","name");</script>
+				<div class="form-group">
+					<label>Name:</label>
+					<input class="form-control" type="text" name="attribute1" value = "" value id="attribute1">
+					<script language="Javascript" type="text/javascript">addFieldToCheck("attribute1","name");</script>
+				</div>
 				<input type="hidden" name="list[2]" value="signup" />
-				<input type="submit" name="subscribe" value="Subscribe" onClick="if (checkform()) {submitForm();} return false;">
+				<input class="btn btn-primary" type="submit" name="subscribe" value="Subscribe" onClick="if (checkform()) {submitform();} return false;">
 			</form>
 			
 			<div id="result"></div>
