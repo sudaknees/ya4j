@@ -110,6 +110,10 @@ div img {
 		width: 100%;
 	}
 	
+	#footer {
+		padding: 30px 20px 30px 20px;
+	}
+	
 	#dirlist {
 		padding-top: 50px;
 		width: 94% !important;
@@ -138,7 +142,34 @@ div img {
 	div img {
 		margin: auto;
 	}
-} 
+}
+
+#footer {
+	background-color: #FF9966;
+	margin-top: 40px;
+	padding: 50px 20px 30px 100px;
+	color: peachpuff;
+}
+
+#footer p {
+	line-height: 50%;
+}
+
+#footer h5 {
+	margin-top: 15px;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer a:hover {
+	color: salmon;
+}
+
+#footer a:visited {
+	color: white;
+}
 
 /* scrollbar */
 

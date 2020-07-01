@@ -31,14 +31,23 @@ html, body {
     -webkit-transition: all .5s ease-in-out;
 }
 
+a {
+	transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+a:hover {
+	letter-spacing: 1px;
+	transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 .listing a:visited {
     color: #66CC99;
-}
-
-.listing a:hover {
-    letter-spacing: 1px;
-	color: lightgreen;
 }
 
 a:hover img {
@@ -91,6 +100,10 @@ h2 {
 		margin: 0 auto;
 		text-align: center;
 	}
+	
+	#footer {
+		padding: 30px 20px 30px 20px;
+	}
 }
 
 #gridthingy {
@@ -120,6 +133,42 @@ h2 {
 
 .btn {
 	margin-bottom: 5px;
+}
+
+#footer {
+	background-color: darkseagreen;
+	margin-top: 40px;
+	padding: 50px 20px 30px 100px;
+	color: azure;
+}
+
+#footer p {
+	line-height: 50%;
+}
+
+#footer h5 {
+	margin-top: 15px;
+}
+
+#footer a {
+	color: white;
+	transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#footer a:hover {
+	color: lightblue;
+	letter-spacing: 1px;
+	transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#footer a:visited {
+	color: white;
 }
 
 

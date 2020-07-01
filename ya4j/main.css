@@ -43,35 +43,7 @@ h2 {
 	margin: auto;
 	width: 60%;
 	padding: 5%;
-	background-color: rgba(153,204,255,.3);
-	margin-top: 15px;
-}
-
-#footer {
-	background-color: rgb(153,204,255);
-	margin-top: 40px;
-	padding: 50px 20px 30px 100px;
-	color: darkslateblue;
-}
-
-#footer p {
-	line-height: 50%;
-}
-
-#footer h5 {
-	margin-top: 15px;
-}
-
-#footer a {
-	color: white;
-}
-
-#footer a:hover {
-	color: lightblue;
-}
-
-#footer a:visited {
-	color: white;
+	background-color: rgba(204,153,204,50);
 }
 
 @media (max-width: 991.98px) {
@@ -81,10 +53,6 @@ h2 {
 	
 	#mailcontainer {
 		width: 75%;
-	}
-	
-	#footer {
-		padding: 30px 20px 30px 20px;
 	}
 }
 

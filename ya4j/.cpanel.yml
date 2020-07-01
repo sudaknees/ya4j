@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kidengaa/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp main.css $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH 
+    - /bin/cp -R our-team $DEPLOYPATH
+    - /bin/cp -R art $DEPLOYPATH
