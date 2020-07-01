@@ -93,11 +93,13 @@ h2 {
 	#biggercontainer {
 		width: 90%;
 		margin: 0 auto;
+		text-align: center;
 	}
 }
 
 #gridthingy {
 	margin: 0 auto;
+	display: block;
 	}
 
 .listing {
