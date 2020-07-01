@@ -89,7 +89,7 @@
 				<div id="result" style="color: red;"></div>
 			</form>
 			
-			<script type="text/javascript"> function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } function submitForm() { successMessage = 'Thank you you for signing up!'; data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', data: data, url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1', dataType: 'html', success: function (data, status, request) { jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val(''); }, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.'); } }); } </script>
+			<script type="text/javascript"> function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } function submitForm() { successMessage = 'Thank you you for signing up!'; data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', data: data, url: 'http://youngartistsforjustice.org/phplist/?p=subscribe&id=1', dataType: 'html', success: function (data, status, request) { jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val(''); }, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.'); } }); } </script>
 		</div>
         
     </body>
