@@ -57,6 +57,8 @@
         </div>
         
 		<div id="mailcontainer">
+			<h3>Mailing List</h3>
+			<br />
 			<script type="text/javascript">
 				var fieldstocheck = new Array();
 				fieldnames = new Array();
@@ -73,6 +75,7 @@
 				}
 
 				function submitform() {
+					successMessage = "Thanks! You've been added to our newsletter :)";
 					data = jQuery('#subscribeform').serialize();
 					jQuery.ajax({
 						type: 'POST',
@@ -118,7 +121,7 @@
 				<input class="btn btn-primary" type="submit" name="subscribe" value="Subscribe!" onClick="if (checkform()) {submitform();} return false;">
 			</form>
 			
-			<div id="result"></div>
+			<p id="result"></p>
 		</div>
         
     </body>
