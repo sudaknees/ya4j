@@ -56,6 +56,41 @@
             <h3>Creating art for change.</h3>
         </div>
         
+		<div id="mailcontainer">
+			<form method="post" name="subscribeform" id="subscribeform" enctype="multipart/form-data">
+				<div class="form-group">
+				<div class="required">
+					<label>
+						Email address:
+					</label>
+				</div>
+				
+				<input type=text name="email" value="" id="email" size="40" class="form-control">
+				<input type=hidden name="htmlemail" value="1">  <input type="hidden" name="subscribe" value="subscribe"/>
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				
+				<div class="form-group">
+				<div class="required">
+					<label>
+						First name:
+					</label>
+				</div>
+				
+				<input type="text" name="attribute1" class="attributeinput form-control" size="40" value="" id="attribute1">
+				<script language="Javascript" type="text/javascript">addFieldToCheck("attribute1","First name");</script>
+				</div>
+				
+				<input type="hidden" name="list[2]" value="signup" />
+				
+				<input type="hidden" name="listname[2]" value="Young Artists For Justice Newsletter">
+				
+				<button class='btn btn-primary' onclick="if (checkform()) {submitForm();} return false;" >Subscribe</button>
+				<div id="result" style="color: red;"></div>
+			</form>
+			
+			<script type="text/javascript"> function checkform() { re = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/; if (!(re.test(jQuery("#email").val()))) { jQuery("#result").empty().append("Please enter a valid email address"); jQuery("#email").focus(); return false; } return true; } function submitForm() { successMessage = 'Thank you you for signing up!'; data = jQuery('#subscribeform').serialize(); jQuery.ajax( { type: 'POST', data: data, url: 'https://youngartistsforjustice.org/phplist/?p=subscribe&id=1', dataType: 'html', success: function (data, status, request) { jQuery("#result").empty().append(data != '' ? data : successMessage); jQuery('#email').val(''); }, error: function (request, status, error) { alert('Sorry, we were unable to process your subscription.'); } }); } </script>
+		</div>
         
     </body>
 </html>
