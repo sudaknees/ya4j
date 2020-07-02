@@ -6,6 +6,7 @@ deployment:
     - /bin/cp main.css $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH 
     - /bin/cp logo2.png $DEPLOYPATH 
+    - /bin/cp logo.png $DEPLOYPATH 
     - /bin/cp -R our-team $DEPLOYPATH
     - /bin/cp -R art $DEPLOYPATH
     - /bin/cp -R contact $DEPLOYPATH
