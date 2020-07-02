@@ -7,3 +7,4 @@ deployment:
     - /bin/cp favicon.ico $DEPLOYPATH 
     - /bin/cp -R our-team $DEPLOYPATH
     - /bin/cp -R art $DEPLOYPATH
+    - /bin/cp -R contact $DEPLOYPATH
