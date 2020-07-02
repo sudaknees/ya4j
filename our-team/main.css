@@ -108,7 +108,7 @@ div img {
 #footer {
 	background-color: #FF9966;
 	margin-top: 40px;
-	padding: 50px 20px 30px 35px;
+	padding: 50px 20px 30px 100px;
 	color: peachpuff;
 }
 
@@ -118,7 +118,7 @@ div img {
 	}
 	
 	#footer {
-		padding: 30px 20px 30px 5px;
+		padding: 30px 20px 30px 35px;
 	}
 	
 	#dirlist {

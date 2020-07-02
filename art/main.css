@@ -92,7 +92,7 @@ h2 {
 #footer {
 	background-color: darkseagreen;
 	margin-top: 40px;
-	padding: 50px 20px 30px 35px;
+	padding: 50px 20px 30px 100px;
 	color: azure;
 }
 
@@ -109,7 +109,7 @@ h2 {
 	}
 	
 	#footer {
-		padding: 30px 20px 30px 5px;
+		padding: 30px 20px 30px 35px;
 	}
 }
 
