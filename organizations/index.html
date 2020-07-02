@@ -67,13 +67,14 @@
 			<button type="button" class="btn btn-outline-success btn-sm" aria-pressed="false" data-sort-by="nameb">Name Z-A</button>
 		</div>
 		
-        <div id="cgrid">
+		<div id="bgrid">
+        	<div id="cgrid"></div>
 		</div>
 		
 		<script>
 			$('.sort-by-button-group').on( 'click', 'button', function() {
 				var sortByValue = $(this).attr('data-sort-by');
-				$('#gridthingy').isotope({ sortBy: sortByValue });
+				$('#cgrid').isotope({ sortBy: sortByValue });
 			});
 		</script>
         

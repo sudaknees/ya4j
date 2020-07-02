@@ -176,11 +176,23 @@ div img {
 	border: 1px solid gray;
 	border-radius: 10px 10px;
 	margin-bottom: 20px;
+	width: 300px !important;
+	text-align: center
+}
+
+.listc img {
+	max-width: 250px;
+	height: auto;
 }
 
 #cgrid {
 	margin: 0 auto;
 	padding-top: 30px;
+}
+
+#bgrid {
+	width: 90%;
+	margin: 0 auto;
 }
 
 .topb {
