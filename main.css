@@ -107,8 +107,20 @@ h2 {
     width: 100%;
     left: 0;
     right: 0;
-    padding: 140px 0px 110px calc(10% - 20px);
+    padding: 140px 0px 110px 0px;
     background-image: linear-gradient(to left, #CCCCFF, #99CCFF);
+	text-align: center;
+	color: white;
+}
+
+#mainblock h3 {
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+
+#mainblock img {
+	width: 700px;
+	max-width: 90%;
 }
 
 

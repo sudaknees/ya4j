@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<charities>
+	<charity>
+		<name>Brooklyn Community Bail Fund</name>
+		<website>https://brooklynbailfund.org</website>
+		<logo>bcbf.jpg</logo>
+		<mission>Brooklyn Community Bail Fund secures the freedom of New Yorkers who would otherwise be detained pretrial due to their poverty alone. We are committed to challenging the criminalization of race, poverty and immigration status, the practice of putting a price on fundamental rights, and the persistent myth that bail is a necessary element of the justice system.</mission>
+	</charity>
+	
+	<charity>
+		<name>Loveland Therapy Fund for Black Women and Girls</name>
+		<website>https://thelovelandfoundation.org/loveland-therapy-fund/</website>
+		<logo>lf.png</logo>
+		<mission>With the barriers affecting access to treatment by members of diverse ethnic and racial groups. Loveland Therapy Fund provides financial assistance to Black women and girls nationally seeking therapy.</mission>
+	</charity>
+	
+	<charity>
+		<name>American Civil Liberties Union</name>
+		<website>https://www.aclu.org</website>
+		<logo>aclu.png</logo>
+		<mission>The ACLU dares to create a more perfect union — beyond one person, party, or side. Our mission is to realize this promise of the United States Constitution for all and expand the reach of its guarantees.</mission>
+	</charity>
+	
+	<charity>
+		<name>Campaign Zero</name>
+		<website>https://www.joincampaignzero.org/</website>
+		<logo>cz.jpg</logo>
+		<mission>We can live in a world where the police don't kill people by limiting police interventions, improving community interactions, and ensuring accountability.</mission>
+	</charity>
+	
+	<charity>
+		<name>Advancement Project</name>
+		<website>https://advancementproject.org/home/</website>
+		<logo>ap.png</logo>
+		<mission>Advancement Project is a next generation, multi-racial civil rights organization. Rooted in the great human rights struggles for equality and justice, we exist to fulfill America’s promise of a caring, inclusive and just democracy. We use innovative tools and strategies to strengthen social movements and achieve high impact policy change.</mission>
+	</charity>
+	
+	<charity>
+		<name>NAACP Legal Defense Fund</name>
+		<website>https://www.naacpldf.org/</website>
+		<logo>ldf.png</logo>
+		<mission>The NAACP Legal Defense and Educational Fund, Inc. is America’s premier legal organization fighting for racial justice. Through litigation, advocacy, and public education, LDF seeks structural changes to expand democracy, eliminate disparities, and achieve racial justice in a society that fulfills the promise of equality for all Americans. LDF also defends the gains and protections won over the past 75 years of civil rights struggle and works to improve the quality and diversity of judicial and executive appointments.</mission>
+	</charity>
+	
+	<charity>
+		<name>Black Trans Travel Fund</name>
+		<website>https://www.blacktranstravelfund.com/</website>
+		<logo>bttf.png</logo>
+		<mission>The Black Trans Travel Fund is a mutual-aid based organization committed to uplifting the narratives and supporting the livelihoods of Black trans women.  Launched in June of 2019, BTTF was developed for the purpose of providing Black transgender women with the financial resources needed to be able to self-determine and access safer alternatives to travel, where women feel less likely to experience verbal harassment or physical harm. We are proud to have already redistributed over $60,000 to Black trans women in need!</mission>
+	</charity>
+	
+	<charity>
+		<name>Human Rights Campaign</name>
+		<website>https://www.hrc.org/</website>
+		<logo>hrc.png</logo>
+		<mission>The Human Rights Campaign and the Human Rights Campaign Foundation together serve as America's largest civil rights organization working to achieve LGBTQ equality. By inspiring and engaging individuals and communities, HRC strives to end discrimination against LGBTQ people and realize a world that achieves fundamental fairness and equality for all.</mission>
+	</charity>
+	
+	<charity>
+		<name>NC Community Bail Fund of Durham</name>
+		<website>https://www.nccbailfund.org/</website>
+		<logo>ncb.png</logo>
+		<mission>We post low-cost bail for people who could otherwise not afford it. We return clients to their homes, jobs, and communities, in turn giving them a more equitable case procedure. Upon court appearance and/or case resolution, the bail is returned to the fund to help others in need.</mission>
+	</charity>
+	
+	<charity>
+		<name>Black Lives Matter</name>
+		<website>https://blacklivesmatter.com/</website>
+		<logo>blm.png</logo>
+		<mission>#BlackLivesMatter was founded in 2013 in response to the acquittal of Trayvon Martin’s murderer. Black Lives Matter Foundation, Inc is a global organization in the US, UK, and Canada, whose mission is to eradicate white supremacy and build local power to intervene in violence inflicted on Black communities by the state and vigilantes. By combating and countering acts of violence, creating space for Black imagination and innovation, and centering Black joy, we are winning immediate improvements in our lives.</mission>
+	</charity>
+	
+	<charity>
+		<name>Black Queer and Intersectional Collective</name>
+		<website>https://bqic.net</website>
+		<logo>blank.jpg</logo>
+		<mission>Black Queer &amp; Intersectional Collective is a grassroots community organization that works towards the liberation of Black queer, trans, and intersex people from all walks of life through direct action, community organizing, education on our issues, and creating spaces to uplift our voices.</mission>
+	</charity>
+	
+	<charity>
+		<name>Marsha P. Johnson Institute</name>
+		<website>https://marshap.org</website>
+		<logo>mpji.png</logo>
+		<mission>The Marsha P. Johnson Institute (MPJI) protects and defends the human rights of Black transgender people. We do this by organizing, advocating, creating an intentional community to heal, developing transformative leadership, and promoting our collective power.</mission>
+	</charity>
+	
+	<charity>
+		<name>Color Of Change</name>
+		<website>https://colorofchange.org</website>
+		<logo>coc.png</logo>
+		<mission>Color Of Change is the nation’s largest online racial justice organization. We help people respond effectively to injustice in the world around us. As a national online force driven by 1.7 million members, we move decision-makers in corporations and government to create a more human and less hostile world for Black people in America.</mission>
+	</charity>
+	
+	<charity>
+		<name>The Bail Project</name>
+		<website>https://bailproject.org</website>
+		<logo>bp.png</logo>
+		<mission>The Bail Project, Inc. is a non-profit organization designed to combat mass incarceration by disrupting the money bail system ‒ one person at a time. We believe that paying bail for someone in need is an act of resistance against a system that criminalizes race and poverty and an act of solidarity with local communities and movements for decarceration. Over the next five years, The Bail Project will open dozens of sites in high-need jurisdictions with the goal of paying bail for tens of thousands of low-income Americans, all while collecting stories and data that prove money bail is not necessary to ensure people return to court. We won’t stop until meaningful change is achieved and the presumption of innocence is no longer for sale.</mission>
+	</charity>
+	
+	<charity>
+		<name>Black Lives Matter Los Angeles</name>
+		<website>https://www.blmla.org/</website>
+		<logo>blmla.jpg</logo>
+		<mission>Black Lives Matter emerged from the hearts and minds of our three co-founders: Patrisse Cullors, Alicia Garza and Opal Tometi. It came to life right here in Los Angeles, where the first chapter was birthed. Our herstory is an important telling of the emergence of Black Lives Matter, and Black Lives Matter-Los Angeles specifically, as a reclamation of and recommitment to Black radical organizing and Black freedom struggle.</mission>
+	</charity>
+	
+	<charity>
+		<name>Embracing Equity</name>
+		<website>https://embracingequity.org</website>
+		<logo>ec.png</logo>
+		<mission>A social change agency dedicated to centering racial justice in education through racial and ethnic identity development, critical consciousness, and critical action.</mission>
+	</charity>
+	
+	<charity>
+		<name>Innocence Project</name>
+		<website>https://www.innocenceproject.org/</website>
+		<logo>ip.jpg</logo>
+		<mission>We exonerate the innocent through DNA testing and reform the criminal justice system to prevent future injustice.</mission>
+	</charity>
+</charities>

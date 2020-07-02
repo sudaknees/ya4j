@@ -13,12 +13,15 @@
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 		
-		<script src="xmlparser.js"></script>
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+		
+		<script src="charitysort.js"></script>
 		
     </head>
     
     <body>
-        <div class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between px-lg-5 px-xl-5" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #FF9966, #FF9999);position: fixed; border-bottom: .25px solid white;width: 100%;" role="navigation">
+        <div class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between px-lg-5 px-xl-5" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #99CC00, #99CC99);position: fixed; border-bottom: .25px solid white;width: 100%;" role="navigation">
 			<a class="navbar-brand" href="/" style="display: flex;">Young Artists For Justice</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -54,12 +57,25 @@
 		</div>
         
         <div id="mainblock">
-            <h1>Meet Our Team</h1>
-            <h3>Directors</h3>
+            <h1>Organizations</h1>
+            <h3>The places we donate to—see where your money is going.</h3>
         </div>
         
-        <div id="dirlist">
+		<div class="sort-by-button-group topb">
+			<button type="button" class="btn btn-outline-success btn-sm" aria-pressed="false" data-sort-by="original-order">Original</button>
+			<button type="button" class="btn btn-outline-success btn-sm" aria-pressed="false" data-sort-by="name">Name A-Z</button>
+			<button type="button" class="btn btn-outline-success btn-sm" aria-pressed="false" data-sort-by="nameb">Name Z-A</button>
 		</div>
+		
+        <div id="cgrid">
+		</div>
+		
+		<script>
+			$('.sort-by-button-group').on( 'click', 'button', function() {
+				var sortByValue = $(this).attr('data-sort-by');
+				$('#gridthingy').isotope({ sortBy: sortByValue });
+			});
+		</script>
         
 		<div class="container-fluid" id="footer">
 			<div class="row">
