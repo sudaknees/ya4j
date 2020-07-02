@@ -105,6 +105,13 @@ div img {
 	align-items: center;
 }
 
+#footer {
+	background-color: #FF9966;
+	margin-top: 40px;
+	padding: 50px 20px 30px 35px;
+	color: peachpuff;
+}
+
 @media (max-width: 991.98px) {
 	.maxwnav {
 		width: 100%;
@@ -142,13 +149,6 @@ div img {
 	div img {
 		margin: auto;
 	}
-}
-
-#footer {
-	background-color: #FF9966;
-	margin-top: 40px;
-	padding: 50px 20px 30px 100px;
-	color: peachpuff;
 }
 
 #footer p {

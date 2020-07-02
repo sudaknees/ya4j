@@ -89,6 +89,13 @@ h2 {
 	margin-bottom: 20px;
 }
 
+#footer {
+	background-color: darkseagreen;
+	margin-top: 40px;
+	padding: 50px 20px 30px 35px;
+	color: azure;
+}
+
 @media (max-width: 991.98px) {
 	
 	.maxwnav {
@@ -133,13 +140,6 @@ h2 {
 
 .btn {
 	margin-bottom: 5px;
-}
-
-#footer {
-	background-color: darkseagreen;
-	margin-top: 40px;
-	padding: 50px 20px 30px 100px;
-	color: azure;
 }
 
 #footer p {
