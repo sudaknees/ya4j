@@ -16,8 +16,8 @@
     </head>
     
     <body>
-		<div class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between align-items-center px-lg-5 px-xl-5" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #CCCCFF, #99CCFF);position: fixed; border-bottom: .25px solid white;width: 100%;" role="navigation">
-			<a class="navbar-brand" href="#" style="display: flex;">Young Artists For Justice</a>
+		<div class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center px-lg-5 px-xl-5" style="background-color: rgba(255,255,255, .8);position: fixed; border-bottom: .25px solid white;width: 100%; z-index: 10000;" role="navigation">
+			<a class="navbar-brand" href="#" style="display: flex;"><img src="logo.png" style="height: auto; max-width: 150px;"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -52,12 +52,127 @@
 		</div>
         
         <div id="mainblock">
-            <img src='logo2.png' style="margin: 0 auto; text-align: center;"/>
-            <h3>Creating art for change</h3>
         </div>
+		
+		<div id="topper">
+			<h1>YOUNG ARTISTS FOR JUSTICE</h1>
+            <h4>Creating art for change</h4>
+		</div>
+		
+		<br />
+		
+		<div class="container-lg text-white bg-success" style="width: 100%; margin: 0 auto; text-align: center;">
+			<div class="card-body">
+				<h2 class="card-title">WHO ARE WE?</h2>
+				<p class="card-text">We are a group of young artists fighting in the name of justice. 100% of our profiits go to organizations that fight injustices around the globe. Each artist selects where their profits go to—some of the organizations we support include the NAACP Legal Defense Fund, The American Civil Liberties Union, and the Human Rights Campaign. We release new art <b> every two weeks.</b></p>
+			</div>
+		</div><br />
+		<div class="container-lg text-white bg-info" style="width: 100%; margin: 0 auto; text-align: center;">
+			<div class="card-body">
+				<h2 class="card-title">WANT TO JOIN US?</h2>
+				<p class="card-text">We are currently accepting applications for new members. Our divisions include Development &and; Management, Research, Outreach &and; Marketing, and Activism and Pleasantry art (digital and traditional artists are both welcome!). Find links to apply <a href="get-involved/" class="text-dark">here.</a></p>
+			</div>
+		</div><br />
+		
+		<div class="container-lg text-white bg-success" style="width: 100%; margin: 0 auto; text-align: center;">
+			<div class="card-body">
+				<h2 class="card-title">HAVE QUESTIONS?</h2>
+				<p class="card-text">Reach out to us! Find links to our Instagram and Facebook below. You can also join our mailing list, or email one of our directors—all of our contact information can be found <a href="contact/" class="text-dark">here!</a> We'll be sure to get back to you as soon as possible.</p>
+			</div>
+		</div>
+		
+		<div class="container" id="mailcontainer">
+			<h3>CONNECT WITH US!</h3>
+			<div class="row">
+				<a href="https://instagr.am/youngartistsforjustice" class="col-sm" target="_blank">
+					<div class="col-sm btn-light">
+						<img src="contact/iglogo.svg" />
+					</div>
+				</a>
+			
+			
+				<a href="https://www.facebook.com/youngartistforjustice/" class="col-sm" target="_blank">
+					<div class="col-sm btn-light">
+						<img src="contact/fblogo.svg">
+					</div>
+				</a>
+			
+			
+				<a href="mailto:team@youngartistsforjustice.org" class="col-sm" target="_blank">
+					<div class="col-sm btn-light">
+						<img src="contact/emaillogo.svg">
+					</div>
+				</a>
+			</div>
+			<br />&nbsp;
+			<br />
+			<h4>Join our mailing list:</h4>
+				<form method="post" name="subscribeform" id="subscribeform2">
+				<div class="form-group">
+					<label>Email:</label>
+					<input class="form-control" type="text" name="email" value="" id="email2">
+					<script language="Javascript" type="text/javascript">addFieldToCheck("email","Email Address");</script>
+					<input type="hidden" name="htmlemail" value="1">
+				</div>
+				
+				<div class="form-group">
+					<label>Name:</label>
+					<input class="form-control" type="text" name="attribute1" value = "" id="attribute12">
+					<script language="Javascript" type="text/javascript">addFieldToCheck("attribute12","name");</script>
+				</div>
+
+				<input type="hidden" name="listname[2]" value="Young Artists For Justice Newsletter">
+				
+				<div style="display:none"><input type="text" name="VerificationCodeX" value="" size="20"></div>
+				
+				<input class="btn btn-light" type="submit" name="subscribe" value="SUBSCRIBE" onClick="if (checkform2()) {submitform2();} return false;">
+			</form>
+					<p id="result2"></p>
+			
+		</div>
 		
 		<div>
 			<script type="text/javascript">
+				
+				var fieldstocheck2 = new Array();
+				fieldnames2 = new Array();
+				
+				function checkform2() {
+					for (i=0;i<fieldstocheck2.length;i++) {
+						if (eval("document.subscribeform.elements['"+fieldstocheck2[i]+"'].value") == "") {
+							alert("Please enter your "+fieldnames2[i]);
+							eval("document.subscribeform.elements['"+fieldstocheck2[i]+"'].focus()");
+							return false;
+						}
+					}
+					return true;
+				}
+
+				function submitform2() {
+					data = jQuery('#subscribeform2').serialize();
+					jQuery.ajax({
+						type: 'POST',
+						data: data,
+						url: 'https://youngartistsforjustice.org/phplist/?p=asubscribe&id=1',
+						dataType: 'html',
+						success: function yayalert2(data, status, request){
+							jQuery("#result2").empty().append("Thanks! You've been added to our newsletter :)");
+							jQuery('#attribute12').val('');
+							jQuery('#email2').val('');
+						},
+						error: function booalert2(request, status, error) {
+							alert('Sorry, we were unable to process your subscription.');
+						}
+					})
+				}
+				
+				function addFieldToCheck2(value,name) {
+					fieldstocheck2[fieldstocheck2.length] = value;
+					fieldnames2[fieldnames2.length] = name;
+				}
+				
+				//intervention
+				
 				var fieldstocheck = new Array();
 				fieldnames = new Array();
 				
