@@ -189,11 +189,11 @@ div img {
 	color: yellowgreen;
 }
 
-.listc:hover {
+.listc a:hover {
 	color: lightgreen;
 }
 
-.listc:visited {
+.listc a:visited {
 	color: yellowgreen;
 }
 
