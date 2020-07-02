@@ -173,7 +173,7 @@ div img {
 
 .listc {
 	padding: 10px;
-	border: 1px solid gray;
+	border: .75px solid lightgray;
 	border-radius: 10px 10px;
 	margin-bottom: 20px;
 	width: 300px !important;
