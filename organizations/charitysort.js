@@ -12,7 +12,7 @@ function parseXml(xml)
 {
 	$("cgrid").html();
 	$(xml).find("charity").each(function() {
-		$("#gridthingy").append("<div class='listc'><img src='" + $(this).find("logo").text() + "'/><br /><a href='" + $(this).find("website").text() + "' target='_blank'><h4 class='cname'>" + $(this).find("name").text() + "</h4><p>" + $(this).find("mission").text() + "</p></div>");
+		$("#cgrid").append("<div class='listc'><img src='" + $(this).find("logo").text() + "'/><br /><a href='" + $(this).find("website").text() + "' target='_blank'><h4 class='cname'>" + $(this).find("name").text() + "</h4><p>" + $(this).find("mission").text() + "</p></div>");
 	});
 }
 
