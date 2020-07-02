@@ -185,6 +185,18 @@ div img {
 	height: auto;
 }
 
+.listc a {
+	color: yellowgreen;
+}
+
+.listc:hover {
+	color: lightgreen;
+}
+
+.listc:visited {
+	color: yellowgreen;
+}
+
 #cgrid {
 	margin: 0 auto;
 	padding-top: 30px;
