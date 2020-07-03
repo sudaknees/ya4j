@@ -113,7 +113,7 @@ div img {
 }
 
 #footer {
-	background-color: plum;
+	background-color: mediumpurple;
 	margin-top: 40px;
 	padding: 50px 20px 30px 100px;
 	color: white;
@@ -249,7 +249,7 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: mediumpurple;
+  background-color: plum;
 }
 
 ::-webkit-scrollbar-thumb:hover {
