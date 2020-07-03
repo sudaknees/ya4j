@@ -36,7 +36,7 @@
 		<age>21</age>
 		<location>Canada</location>
 		<pronouns>they/them</pronouns>
-		<position>Director of Research</position>
+		<position>Co-Director of Research</position>
 		<bio>Lou is from Atlanta, GA and based in Montréal, QC. They have a passion for social justice, research, and educational advocacy along with entomology, mycology, and botany. They are in their last year of undergraduate before heading to graduate school to pursue medical/scientific illustration; they are also a tattoo artist. If they're not at school, they are usually on the train reading any social justice, advocacy awareness, and/or socialist rhetoric they can get their hands on, gardening on their tiny balcony, tattooing, or drawing/painting!</bio>
 		<imgurl>lou.jpg</imgurl>
 	</director>
@@ -60,5 +60,15 @@
         <bio>Nina is a digital artist from Ohio, and is heading to Tulane University to study Public Health and Political Science/Pre-Law in the fall. In high school, she was involved in political activism, music, and community outreach efforts, and plans to continue these in college. She is very passionate about criminal justice reform, and hopes to work as a public health or civil rights lawyer in the future.</bio>
         <imgurl>nina.jpg</imgurl>
     </director>
+	
+	<director>
+		<name>Angelique Herrin</name>
+		<age>15</age>
+		<location>USA</location>
+		<pronouns>she/her</pronouns>
+		<position>Co-Director of Pleasantry Art</position>
+		<bio>Angelique is a rising sophomore in the USA. She is very passionate about the arts, and activism. At her school, she participates in several performing arts related activities, such as a theater competition team, and makes art in her own freetime.</bio>
+		<imgurl>angelique.jpg</imgurl>
+	</director>
     
 </directors>
