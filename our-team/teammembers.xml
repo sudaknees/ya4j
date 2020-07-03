@@ -32,6 +32,15 @@
     </director>
 	
 	<director>
+		<name>Grace Harrison</name>
+		<age>18</age>
+		<location>USA</location>
+		<pronouns>she/her</pronouns>
+		<bio>Grace is a very creative individual, and is passionate about a variety of social justice causes. In her free time, she loves to read, bake, and color. She loves graphic design and her goal is to utilize her Spanish skills in anyway she can!</bio>
+		<imgurl>blank.jpg</imgurl>
+	</director>
+	
+	<director>
 		<name>Lou Weinstein</name>
 		<age>21</age>
 		<location>Canada</location>
@@ -51,6 +60,16 @@
 		<imgurl>cameron.jpeg</imgurl>
 	</director>
 	
+	<director>
+		<name>Erin Reed</name>
+		<age>13</age>
+		<location>she/her</location>
+		<pronouns>USA</pronouns>
+		<position>Co-Director of Outreach and Marketing</position>
+		<bio>Erin has a wide variety of interests, including the fantasy role-playing game <i>Dungeons and Dragons</i>, character design, and tarot cards. In her free time, she likes to spend time in nature or create comics. She is very passionate about creating art, activism, and social justice.</bio>
+		<imgurl>blank.jpg</imgurl>
+	</director>
+	
     <director>
         <name>Nina Kisanga</name>
         <age>18</age>
@@ -60,6 +79,16 @@
         <bio>Nina is a digital artist from Ohio, and is heading to Tulane University to study Public Health and Political Science/Pre-Law in the fall. In high school, she was involved in political activism, music, and community outreach efforts, and plans to continue these in college. She is very passionate about criminal justice reform, and hopes to work as a public health or civil rights lawyer in the future.</bio>
         <imgurl>nina.jpg</imgurl>
     </director>
+	
+	<director>
+		<name>Ain Hasdi</name>
+		<age>14</age>
+		<location>USA</location>
+		<pronouns>she/her</pronouns>
+		<position>Co-Director of Pleasantry Art</position>
+		<bio>Ain is very interested in history and English—she particularly enjoys reading novels. She also really loves cats and sunrises. In her free time, you can find her pursuing one of her passions, such as reading or creating art!</bio>
+		<imgurl>blank.jpg</imgurl>
+	</director>
 	
 	<director>
 		<name>Angelique Herrin</name>
