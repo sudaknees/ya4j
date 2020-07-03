@@ -13,12 +13,10 @@
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 		
-		<script src="xmlparser.js"></script>
-		
     </head>
     
     <body>
-        <div class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between px-lg-5 px-xl-5" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #FF9966, #FF9999);position: fixed; border-bottom: .25px solid white;width: 100%;" role="navigation">
+        <div class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between px-lg-5 px-xl-5" style="background-color: rgba(0,0,0,0); background-image: linear-gradient(to left, #89BFF5, #99CCFF);position: fixed; border-bottom: .25px solid white;width: 100%;z-index:10000;" role="navigation">
 			<a class="navbar-brand" href="/" style="display: flex;"><img src="/logo2.png" style="height: auto; max-width: 150px;"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -53,14 +51,38 @@
 			</div>
 		</div>
         
-        <div id="mainblock">
-            <h1>Meet Our Team</h1>
-            <h3>Directors</h3>
+        <div id="mainblock">&nbsp;
         </div>
-        
-        <div id="dirlist">
+		
+		<div id="belowtext">
+			<h3><b>MISSION</b></h3>
+            <h5>We are a group of young artists fighting in the name of justice. One hundred percent of our profits go to organizations that help fight injustices around the globe.</h5>
+		
+		<ul class="nav justify-content-center d-md-flex navbar-light bg-info" style="max-width:600px; margin: 0 auto;margin-top: 40px;">
+			
+			<li class="nav-item">
+				<a class="nav-link text-light" href="#whoweare">Who We Are</a>
+			</li>
+  
+			<li class="nav-item">
+				<a class="nav-link text-light" href="#whatwedo">What We Do</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link text-light" href="#howwedoit">How We Do It</a>
+			</li>
+		</ul>
 		</div>
-        
+		<div id="mission">
+			<h3 id="whoweare" class="text-info">WHO WE ARE</h3>
+			<p>We are a collection high-school and college-aged traditional and digital artists, united under a common cause. We create and sell original art on merchandise you can enjoy, at reasonable prices, to support organizations we (and you) care about.</p>
+			<hr/>
+			<h3 id="whatwedo" class="text-info">WHAT WE DO</h3>
+			<p>We create art for a variety of social, economic, and political causes around the globe, and work collaboratively to further the social causes we care about. Our founder, Sadie Honchock, created this organization in the aftermath of the tragic murder of George Floyd; though we initially focused on donating to Black Lives Matter-centric charities, we have since expanded our horizons, so we also support various social justice causes, such as different humanitarian crises, LGBT+ rights, and US immigration rights.</p>
+			<hr/>
+			<h3 id="howwedoit" class="text-info">HOW WE DO IT</h3>
+			<p> We use a retailer called Teespring to sell our art on different merchandise&mdash;shirts, socks, mugs, stickers, posters, tapestries, and more. All transactions and donations are handled by Teespring, and they offer a guarantee that your money will go directly to the organizations we support.</p>
+        </div>
 		<div>
 			<script type="text/javascript">
 				var fieldstocheck = new Array();
