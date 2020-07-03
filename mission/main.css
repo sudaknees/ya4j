@@ -86,6 +86,10 @@ h2 {
 	.maxwnav {
 		width: 100%;
 	}
+	
+	#footer {
+		padding: 50px 20px 30px 35px;
+	}
 }
 
 #footer p {
