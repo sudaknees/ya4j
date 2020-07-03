@@ -11,3 +11,5 @@ deployment:
     - /bin/cp -R art $DEPLOYPATH
     - /bin/cp -R contact $DEPLOYPATH
     - /bin/cp -R organizations $DEPLOYPATH
+    - /bin/cp -R mission $DEPLOYPATH
+    - /bin/cp -R get-involved $DEPLOYPATH
