@@ -59,11 +59,6 @@ h2 {
 	padding-top: 30px;
 }
 
-div img {
-    width: 225px;
-    height: auto;
-}
-
 .personalbio h2 {
 	line-height: 110%;
 }
@@ -78,13 +73,6 @@ div img {
 	color: #FF9999;
 	font-weight: 400;
 	line-height: 75%
-}
-
-.imgtd {
-	width: 225px;
-	text-align: center;
-	display: inline-flex;
-	margin-right: 20px;
 }
 
 .personalbio {
@@ -131,13 +119,6 @@ div img {
 	.personalbio {
 		text-align: center !important;
 		margin: auto;
-	}
-	
-	.imgtd {
-		text-align: center;
-		margin: auto !important;
-		text-align: center;
-		padding-bottom: 15px;
 	}
 	
 	.personal {
