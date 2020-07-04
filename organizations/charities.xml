@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <charities>
+	
 	<charity>
 		<name>Brooklyn Community Bail Fund</name>
 		<website>https://brooklynbailfund.org</website>
@@ -72,7 +73,7 @@
 	</charity>
 	
 	<charity>
-		<name>Black Queer and Intersectional Collective</name>
+		<name>Black Queer &amp; Intersectional Collective</name>
 		<website>https://bqic.net</website>
 		<logo>blank.jpg</logo>
 		<mission>Black Queer &amp; Intersectional Collective is a grassroots community organization that works towards the liberation of Black queer, trans, and intersex people from all walks of life through direct action, community organizing, education on our issues, and creating spaces to uplift our voices.</mission>
@@ -119,4 +120,63 @@
 		<logo>ip.jpg</logo>
 		<mission>We exonerate the innocent through DNA testing and reform the criminal justice system to prevent future injustice.</mission>
 	</charity>
+	
+	<charity>
+		<name>Unist'ot'en Camp</name>
+		<website>https://unistoten.camp</website>
+		<logo>ust.png</logo>
+		<mission>The Unist’ot’en village is an indigenous re-occupation of Wet’suwet’en land in northern BC, Canada.</mission>
+	</charity>
+	
+	<charity>
+		<name>Gendered Intelligence</name>
+		<website>http://genderedintelligence.co.uk</website>
+		<logo>gi.gif</logo>
+		<mission>Gendered Intelligence (GI) is a trans-led charity working across the UK. We were originally a Community Interest Company, established in 2008. Our mission is to increase understandings of gender diversity. Our vision is of a world where people are no longer constrained by narrow perceptions and expectations of gender, and where diverse gender expressions are visible and valued. We work with the trans community and those who impact on trans lives; we particularly specialise in supporting young trans people aged 8-25.</mission>
+	</charity>
+	
+	<charity>
+		<name>Black Girls CODE</name>
+		<website>https://www.blackgirlscode.com</website>
+		<logo>bgc.png</logo>
+		<mission>Our vision is to increase the number of women of color in the digital space by empowering girls of color ages 7 to 17 to become innovators in STEM fields, leaders in their communities, and builders of their own futures through exposure to computer science and technology. To provide African-American youth with the skills to occupy some of the 1.4 million computing job openings expected to be available in the U.S. by 2020, and to train 1 million girls by 2040.</mission>
+	</charity>
+	
+	<charity>
+		<name>Shades of Colour</name>
+		<website>https://www.patreon.com/shadesofcolour</website>
+		<logo>soc.jpg</logo>
+		<mission>This is a space founded by and for members of the community for QTIBPOCs (queer and trans, Indigenous, Black, and people of colour) in Edmonton, Alberta on Treaty 6 &amp; Métis territory. We provide ongoing support for individuals who are seeking community and or struggling with their identities. As of November 2018, Shades of Colour is officially an APIRG! working group!</mission>
+	</charity>
+	
+	<charity>
+		<name>Solutions Not Punishment Collaborative</name>
+		<website>https://www.snap4freedom.org/donate</website>
+		<logo>snp.jpeg</logo>
+		<mission>Solutions Not Punishment Collaborative is a Black trans and queer led organization that builds safety within our community, investing in our collective embodied leadership, and building political power.</mission>
+	</charity>
+	
+	<charity>
+		<name>Public Functionary</name>
+		<website>https://publicfunctionary.org</website>
+		<logo>pf.jpg</logo>
+		<mission>PF is a platform for grassroots cultural organizing and production across disciplines: visual art, performance, music, and more.</mission>
+	</charity>
+	
+	<charity>
+		<name>The Okra Project</name>
+		<website>https://www.theokraproject.com</website>
+		<logo>op.png</logo>
+		<mission>The Okra Project is a collective that seeks to address the global crisis faced by Black Trans people by bringing home cooked, healthy, and culturally specific meals and resources to Black Trans People wherever we can reach them.</mission>
+	</charity>
+	
+<!--	
+	<charity>
+		<name></name>
+		<website></website>
+		<logo></logo>
+		<mission></mission>
+	</charity>
+-->
+
 </charities>
