@@ -202,22 +202,13 @@
 	</artwork>
 	
 	<artwork>
-		<title>BLM (1)</title>
+		<title>BLM</title>
 		<artist>ifbeatlemaniawaspunk</artist>
 		<segment>blm</segment>
 		<imageurl>47.jpg</imageurl>
 		<charity>Black Trans Travel Fund</charity>
-		<shopurl>https://teespring.com/blm-4652</shopurl><addinfo></addinfo>
-	</artwork>
-	
-	<artwork>
-		<title>BLM (2)</title>
-		<artist>ifbeatlemaniawaspunk</artist>
-		<segment>blm</segment>
-		<imageurl>46.jpg</imageurl>
-		<charity>Black Trans Travel Fund</charity>
-		<shopurl>https://teespring.com/blm-2-2020</shopurl>
-		<addinfo></addinfo>
+		<shopurl>https://teespring.com/blm-4652</shopurl>
+        <addinfo><![CDATA[<a href="https://teespring.com/blm-2-2020" target="_blank">Version 2</a>]]></addinfo>
 	</artwork>
 	
 	<artwork>
@@ -290,38 +281,18 @@
 	</artwork>
 	
 	<artwork>
-		<title>F**K THE POLICE (1)</title>
+		<title>F**K THE POLICE</title>
 		<artist>milk_grips</artist>
 		<segment>police</segment>
 		<imageurl>53.jpg</imageurl>
 		<charity>The Bail Project</charity>
 		<shopurl>https://teespring.com/wear-f-k-the-police</shopurl>
-		<addinfo></addinfo>
-	</artwork>
-	
-	<artwork>
-		<title>F**K THE POLICE (2)</title>
-		<artist>milk_grips</artist>
-		<segment>police</segment>
-		<imageurl>54.jpg</imageurl>
-		<charity>The Bail Project</charity>
-		<shopurl>https://teespring.com/get-f-k-the-police</shopurl>
-		<addinfo></addinfo>
-	</artwork>
-	
-	<artwork>
-		<title>F**K THE POLICE (3)</title>
-		<artist>milk_grips</artist>
-		<segment>police</segment>
-		<imageurl>55.jpg</imageurl>
-		<charity>The Bail Project</charity>
-		<shopurl>https://teespring.com/new-f-k-the-police</shopurl>
-		<addinfo></addinfo>
+		<addinfo><![CDATA[<a href="https://teespring.com/get-f-k-the-police" target="_blank">Yellow Version</a> | <a href="https://teespring.com/new-f-k-the-police" target="_blank">Purple Version</a>]]></addinfo>
 	</artwork>
 	
 	<artwork>
 		<title>black lives are beautiful</title>
-		<artist>danishpineapple</artist>
+		<artist>fr0gnoodles</artist>
 		<segment>blm</segment>
 		<imageurl>56.jpg</imageurl>
 		<charity>Black Queer &amp; Intersectional Collective</charity>

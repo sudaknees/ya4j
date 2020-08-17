@@ -10,16 +10,6 @@
 		<bio>Sadie Honchock is a rising senior at University View Academy where she is pursuing her high school diploma and her Associate's of Arts in Humanities. She is a self-taught artist, author, and youth activist who aspires to be a staff attorney for the ACLU when she is older.</bio>
 		<imgurl>sadie.png</imgurl>
 	</director>
-	
-    <director>
-        <name>Megan Cooper</name>
-        <age>18</age>
-        <location>USA</location>
-        <pronouns>she/her</pronouns>
-        <position>Co-Director of Development and Management</position>
-        <bio>Megan Cooper is heading to Syracuse University in the fall to pursue a double major in Political Science and News/Online Journalism. She is passionate about the possibilities for our future and hopes to work with other young people to create systems that help all people and are not based on oppression of minority groups.</bio>
-        <imgurl>megan.jpg</imgurl>
-    </director>
     
     <director>
         <name>Samira Akbary</name>
@@ -88,16 +78,6 @@
 		<position>Co-Director of Pleasantry Art</position>
 		<bio>Ain is very interested in history and English—she particularly enjoys reading novels. She also really loves cats and sunrises. In her free time, you can find her pursuing one of her passions, such as reading or creating art!</bio>
 		<imgurl>blank.jpg</imgurl>
-	</director>
-	
-	<director>
-		<name>Angelique Herrin</name>
-		<age>15</age>
-		<location>USA</location>
-		<pronouns>she/her</pronouns>
-		<position>Co-Director of Pleasantry Art</position>
-		<bio>Angelique is a rising sophomore in the USA. She is very passionate about the arts, and activism. At her school, she participates in several performing arts related activities, such as a theater competition team, and makes art in her own freetime.</bio>
-		<imgurl>angelique.jpg</imgurl>
 	</director>
     
 </directors>
