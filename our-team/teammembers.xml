@@ -12,6 +12,16 @@
 	</director>
     
     <director>
+        <name>Luna Brady</name>
+        <age>14</age>
+        <location>USA</location>
+        <pronouns>she/her</pronouns>
+        <position>Co-Director of Development and Management</position>
+        <bio>Luna enjoys roller skating, making earrings, creating digital art, and most of all, taking part in making change. Her current and main goal is to be a part of something bigger than herself, so she takes pride in being part of the Young Artists for Justice group of directors. She is interested in social justice, activism, and teenage mental health.</bio>
+        <imgurl>blank.jpg</imgurl>
+    </director>
+        
+    <director>
         <name>Samira Akbary</name>
         <age>17</age>
         <location>USA</location>
@@ -80,5 +90,15 @@
 		<bio>Ain is very interested in history and English—she particularly enjoys reading novels. She also really loves cats and sunrises. In her free time, you can find her pursuing one of her passions, such as reading or creating art!</bio>
 		<imgurl>blank.jpg</imgurl>
 	</director>
+    
+    <director>
+        <name>Bethany LaLonde</name>
+        <age>14</age>
+        <location>USA</location>
+        <pronouns>she/her</pronouns>
+        <position>Co-Director of Pleasantry Art</position>
+        <bio>Bethany LaLonde is a freshman in high school. She is a self-taught artist, singer, baker, and author. She is always helping her friends study, and devoting time to all her extracurricular activities such as YA4J, art, and FFA. She's been apart of several public speaking events and strives to spread word about what she feels is right and raise awareness to her causes. She is very passionate about helping people and creating safe spaces, and hopes to one day become a psychologist.</bio>
+        <imgurl>bethany.jpg</imgurl>
+    </director>
     
 </directors>
