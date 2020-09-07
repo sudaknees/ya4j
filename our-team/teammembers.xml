@@ -10,23 +10,13 @@
 		<bio>Sadie Honchock is a rising senior at University View Academy where she is pursuing her high school diploma and her Associate's of Arts in Humanities. She is a self-taught artist, author, and youth activist who aspires to be a staff attorney for the ACLU when she is older.</bio>
 		<imgurl>sadie.png</imgurl>
 	</director>
-    
-    <director>
-        <name>Luna Brady</name>
-        <age>14</age>
-        <location>USA</location>
-        <pronouns>she/her</pronouns>
-        <position>Co-Director of Development and Management</position>
-        <bio>Luna enjoys roller skating, making earrings, creating digital art, and most of all, taking part in making change. Her current and main goal is to be a part of something bigger than herself, so she takes pride in being part of the Young Artists for Justice group of directors. She is interested in social justice, activism, and teenage mental health.</bio>
-        <imgurl>blank.jpg</imgurl>
-    </director>
         
     <director>
         <name>Samira Akbary</name>
         <age>17</age>
         <location>USA</location>
         <pronouns>she/her</pronouns>
-        <position>Co-Director of Development and Management</position>
+        <position>Director of Development and Management</position>
         <bio>Samira is a rising high school senior. At school, she has been a passionate member of Young Dems and held leadership positions in Key Club. Outside of school, she was the founder of Letters 4 Docs, which wrote over 400 COVID-19 relief letters to medical personnel. She is also the Director of Civil Rights Advocacy at the Greater Good Initiative which elevates youth voices in public policy.</bio>
         <imgurl>samira.jpg</imgurl>
     </director>
